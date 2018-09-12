@@ -27,6 +27,7 @@ after_script:
   - git config --global user.name "$GIT_NAME"
   - export REMOTE=$(git config remote.origin.url | sed 's/.*:\/\///')
   - cd _site
+  - cp ../.travis.yml .
   - git init
   - git add -A
   - git commit -a -m "Site build from Travis ($TRAVIS_BUILD_NUMBER) at $(date -u)"
