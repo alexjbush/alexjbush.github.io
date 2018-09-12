@@ -1,0 +1,34 @@
+sudo: false
+
+# Caching so the next build will be fast too.
+cache:
+  directories:
+  - $HOME/.stack
+
+branches:
+  only:
+  - source
+
+before_install:
+# Download and unpack the stack executable
+- mkdir -p ~/.local/bin
+- export PATH=$HOME/.local/bin:$PATH
+- travis_retry curl -L https://get.haskellstack.org/stable/linux-x86_64.tar.gz | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
+
+
+install:
+  - travis_wait stack build
+
+script:
+  - stack exec site build
+
+after_script:
+  - git config --global user.email "$GIT_EMAIL"
+  - git config --global user.name "$GIT_NAME"
+  - export REMOTE=$(git config remote.origin.url | sed 's/.*:\/\///')
+  - cd _site
+  - git init
+  - git add -A
+  - git commit -a -m "Site build from Travis ($TRAVIS_BUILD_NUMBER) at $(date -u)"
+  - git remote add origin https://${GH_TOKEN}@${REMOTE}
+  - git push -f origin master:master_test
