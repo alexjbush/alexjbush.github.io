@@ -17,7 +17,7 @@ before_install:
 
 
 install:
-  - travis_wait stack build
+  - travis_wait 55 stack build
 
 script:
   - stack exec site build
