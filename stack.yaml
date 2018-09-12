@@ -1,0 +1,6 @@
+flags: {}
+packages:
+- .
+resolver: lts-12.8
+extra-deps:
+- hakyll-sass-0.2.3

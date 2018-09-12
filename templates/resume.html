@@ -1,0 +1,201 @@
+<article>
+    <div class="container nobreak">
+        <div class="row">
+            <h1>$name$</h1>
+        </div>
+        <hr />
+        <section>
+            <div class="row">
+                <div class="twelve columns">
+                    <p class="upper">Contact Informa&shy;tion</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    <p>
+                        <em>Email:</em>
+                        <binary-obscured data-before="$contact.emailUser$" data-after="$contact.emailDomain$">@</binary-obscured>
+                        <br />
+                        <em>Mobile:</em>
+                        <binary-obscured data-before="$contact.phoneCountryCode$" data-after="$contact.phoneNumber$"> </binary-obscured>
+                        <br />
+                        <em>Website:</em> <a href="$contact.website$">$contact.website$</a>
+                    </p>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section>
+            <div class="row">
+                <div class="twelve columns">
+                    <p class="upper">Profile</p>
+                </div>
+            </div>
+             <div class="row">
+                <div class="twelve columns">
+                    <p>$profile$</p>
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section>
+            <div class="row">
+                <div class="twelve columns">
+                    <p class="upper">Work Experience</p>
+                </div>
+            </div>
+             <div class="row">
+                <div class="twelve columns">
+                    $for(workExperience)$
+                    <div class="row">
+                        <div class="twelve columns">
+                          <div class="nobreak">
+                            <p><strong>$company$</strong>&nbsp;&nbsp;<em>$role$</em>&nbsp;&nbsp;$location$</p>
+                          </div>
+                        </div>
+                    </div>
+                    $for(positions)$
+                    <div class="row">
+                        <div class="one column">
+                        </div>
+                        <div class="eleven columns">
+                          <div class="nobreak">
+                            <p><em>$title$</em><strong class="u-pull-right">$date$</strong></p>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="one column">
+                        </div>
+                        <div class="eleven columns">
+                          <div class="nobreak">
+                            $if(tasks)$
+                            <ul>
+                                $for(tasks)$
+                                <li>$task$</li>
+                                $endfor$
+                            </ul>
+                            $endif$
+                          </div>
+                        </div>
+                    </div>
+                    $endfor$
+                    <br />
+                    $endfor$
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section>
+            <div class="row">
+                <div class="twelve columns">
+                    <p class="upper">Education</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    $for(education)$
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="nobreak">
+                            <p><strong><a href="$url$">$school$</a></strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="one column">
+                        </div>
+                        <div class="eleven columns">
+                            <div class="nobreak">
+                            <p>$award$, <a href="$titleLink$">$titleName$</a></p>
+                            $if(projects)$ 
+                            <ul>
+                            $for(projects)$
+                            <li>$type$: <strong>$title$</strong>
+                            <ul>
+                                $for(tasks)$
+                                <li>$task$</li>
+                                $endfor$
+                            </ul>
+                            </li>
+                            $endfor$ 
+                            </ul>
+                            $endif$
+                            </div>
+                        </div>
+                    </div>
+                    $endfor$
+                    <br />
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section>
+            <div class="row">
+                <div class="twelve columns">
+                    <p class="upper">Academic Experience</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    $for(academicExperience)$
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="nobreak">
+                            <p><strong>$name$</strong>&nbsp;&nbsp;$location$</p>
+                            </div>
+                        </div>
+                    </div>
+                    $for(positions)$
+                    <div class="row">
+                        <div class="one column">
+                        </div>
+                        <div class="eleven columns">
+                            <div class="nobreak">
+                            <p><em>$title$</em><strong class="u-pull-right">$date$</strong></p>
+                            </div>
+                        </div>
+                    </div>
+                    $if(tasks)$
+                    <div class="row">
+                        <div class="one column">
+                        </div>
+                        <div class="eleven columns">
+                            <div class="nobreak">
+                            <ul>
+                                $for(tasks)$
+                                <li>$task$</li>
+                                $endfor$
+                            </ul>
+                            </div>
+                        </div>
+                    </div>
+                    $endif$
+                    $endfor$ $endfor$
+                </div>
+            </div>
+        </section>
+        <hr />
+        <section>
+            <div class="row">
+                <div class="twelve columns">
+                    <p class="upper">Technical Skills</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="twelve columns">
+                    $for(technicalSkills)$
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="nobreak">
+                            <p><strong>$type$</strong></p>
+                            <p>$skills$</p>
+                            </div>
+                        </div>
+                    </div>
+                    $endfor$
+                </div>
+            </div>
+        </section>
+    </div>
+</article>

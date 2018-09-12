@@ -1,0 +1,78 @@
+#sidebar { /*Sidebar style: https://stackoverflow.com/questions/38068547/how-to-create-fixed-sidebar-with-skeleton-css */
+	position: relative;
+}
+
+@media (min-width: 550px) {
+	/*Skeletons default grid-activation width*/
+	#sidebar {
+		position: fixed;
+		max-width: 18%;
+		/*Avoids overlapping*/
+	}
+}
+
+.nav-link {
+	text-transform: uppercase;
+	font-size: 18px;
+	letter-spacing: .2rem;
+	text-decoration: none;
+	color: #222;
+	&.active {
+		color: #33C3F0;
+	}
+}
+
+.upper {
+       text-transform: uppercase;
+}
+
+.title-link {
+	letter-spacing: .1rem;
+	text-decoration: none;
+	color: #222;
+	&.active {
+		color: #33C3F0;
+	}
+}
+
+#unstyled ul li {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+
+.nobreak p {
+	margin-bottom: 1rem;
+}
+
+.nobreak ul, .nobreak ul li {
+	margin-bottom: 0.5rem;
+	list-style-position: outside;
+	margin-left: 2em;
+}
+
+.nobreak ul li ul, .nobreak ul li ul li {
+	margin-top: 0rem;
+	list-style-position: outside;
+	margin-left: 1em;
+}
+
+.nobreak hr {
+	margin-bottom: 2rem;
+	margin-top: 0rem;
+}
+
+binary-obscured {
+  &::after {
+    content: attr(data-after);
+  }
+  &::before {
+    content: attr(data-before);
+  }
+}
+
+@media print { 
+ /* All your print styles go here */
+ header, footer, nav { display: none !important; }
+ body { font-size: 7.5pt; } 
+}
