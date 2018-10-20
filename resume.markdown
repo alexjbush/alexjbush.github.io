@@ -48,7 +48,7 @@ workExperience:
     - title: Multinational Banking and Financial Services Company
       date: December 2015
       tasks:
-      - task: Rapid deployment of Hortonworks PoC Security benchmark cluster utilising entire HDP security suite including HDFS/HBase encryption zones (Ranger KMS),
+      - task: Rapid deployment of Hortonworks PoC Security benchmark cluster utilising entire HDP security suite including HDFS/HBase encryption zones (Ranger KMS), Kerberos and Knox
   - company: British Gas
     role: Various Roles
     location: "Staines-upon-Thames, United Kingdom"
