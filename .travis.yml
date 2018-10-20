@@ -32,4 +32,4 @@ after_script:
   - git add -A
   - git commit -a -m "Site build from Travis ($TRAVIS_BUILD_NUMBER) at $(date -u)"
   - git remote add origin https://${GH_TOKEN}@${REMOTE}
-  - git push -f origin master:master_test | grep -v http
+  - git push -f origin master:master | grep -v http
