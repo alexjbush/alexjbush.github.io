@@ -5,7 +5,7 @@ contact:
   emailDomain: "gmail.com"
   phoneCountryCode: "+44"
   phoneNumber: "7725576052"
-  website: "https://www.alexbu.sh"
+  website: "https://alexbu.sh"
 profile: "A passionate and inquisitive Hadoop engineer, who's interests span from Spark application development and functional programming in Scala to infrastructure automation and security. With lead experience as both a DevOps Engineer and Data Engineer, the deep cross-functional knowledge allows unique insight into solving Data problems in a creative way, a strong advantage in an industry driven largely by technical innovation."
 workExperience:
   - company: Cox Automotive Data Solutions
