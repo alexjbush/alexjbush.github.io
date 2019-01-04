@@ -15,7 +15,7 @@ before_install:
 - export PATH=$HOME/.local/bin:$PATH
 - travis_retry curl -L https://get.haskellstack.org/stable/linux-x86_64.tar.gz | tar xz --wildcards --strip-components=1 -C ~/.local/bin '*/stack'
 - wget https://downloads.wkhtmltopdf.org/0.12/0.12.5/wkhtmltox_0.12.5-1.xenial_amd64.deb
-- if [ "$( gsha256sum wkhtmltox_0.12.5-1.xenial_amd64.deb | awk '{ print $1}' )" != "df203cee4dc9b3efb8d0cd6fc25fa819883224f50c75b76bd9c856903711dc14" ]; then echo wkhtmltox checksum incorrect; exit 1; fi
+- if [ "$( sha256sum wkhtmltox_0.12.5-1.xenial_amd64.deb | awk '{ print $1}' )" != "df203cee4dc9b3efb8d0cd6fc25fa819883224f50c75b76bd9c856903711dc14" ]; then echo wkhtmltox checksum incorrect; exit 1; fi
 - sudo dpkg -i wkhtmltox_0.12.5-1.xenial_amd64.deb
 
 install:
