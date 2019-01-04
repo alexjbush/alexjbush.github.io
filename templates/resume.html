@@ -1,6 +1,9 @@
 <article>
     <div class="container nobreak">
         <div class="row">
+            <header>
+                <a href="/cv.pdf">A PDF version is available here.</a>
+            </header>
             <h1>$name$</h1>
         </div>
         <hr />
@@ -13,13 +16,13 @@
             <div class="row">
                 <div class="twelve columns">
                     <p>
-                        <em>Email:</em>
+                        <em>Email:&nbsp</em>
                         <binary-obscured data-before="$contact.emailUser$" data-after="$contact.emailDomain$">@</binary-obscured>
                         <br />
-                        <em>Mobile:</em>
+                        <em>Mobile:&nbsp</em>
                         <binary-obscured data-before="$contact.phoneCountryCode$" data-after="$contact.phoneNumber$"> </binary-obscured>
                         <br />
-                        <em>Website:</em> <a href="$contact.website$">$contact.website$</a>
+                        <em>Website:&nbsp</em> <a href="$contact.website$">$contact.website$</a>
                     </p>
                 </div>
             </div>
@@ -112,11 +115,13 @@
                             <ul>
                             $for(projects)$
                             <li>$type$: <strong>$title$</strong>
+                            $if(tasks)$
                             <ul>
                                 $for(tasks)$
                                 <li>$task$</li>
                                 $endfor$
                             </ul>
+                            $endif$
                             </li>
                             $endfor$ 
                             </ul>

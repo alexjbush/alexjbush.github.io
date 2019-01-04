@@ -6,7 +6,7 @@ contact:
   phoneCountryCode: "+44"
   phoneNumber: "7725576052"
   website: "https://alexbu.sh"
-profile: "A passionate and inquisitive Hadoop engineer, who's interests span from Spark application development and functional programming in Scala to infrastructure automation and security. With lead experience as both a DevOps Engineer and Data Engineer, the deep cross-functional knowledge allows unique insight into solving Data problems in a creative way, a strong advantage in an industry driven largely by technical innovation."
+profile: "A passionate and experienced Hadoop engineer, who's interests span from Spark application development and functional programming in Scala to infrastructure automation and security. With technical leadership experience as both a DevOps Engineer and Data Engineer, this deep cross-functional knowledge allows unique insight into solving Data problems in a creative way, a strong advantage in an industry driven largely by technical innovation."
 workExperience:
   - company: Cox Automotive Data Solutions
     role: Hadoop DevOps Engineer/Data Engineer
@@ -19,9 +19,9 @@ workExperience:
       - task: Wrote a set of cluster benchmarking tools and used the cluster automation scripts to benchmark a variety of AWS and Azure configurations
       - task: Was responsible for migration from non-secure CDH cluster to secure (Kerberos, SSL and HDFS encryption) CDH cluster, including migration of data and projects. Automation of SSL was done using Certmonger SCEP against ADCS NDES
       - task: Was responsible for all Data Engineering/Hadoop infrastructure in the Cloud, including networking, security, RBAC model and administration, AD integration, Azure Data Lake Storage and other Azure storage accounts
-      - task: "Constantly innovated solutions for DevOps and Infrastructure including creating a custom ADLS authentication module allowing users to authenticate against Azure without using shared service principals, creating a custom Zeppelin and Livy CDH parcels providing secure authenticated and encrypted access to cluster via notebooks, providing two patches back to Apache Zeppelin project (<a href=\"https://issues.apache.org/jira/browse/ZEPPELIN-3098\">ZEPPELIN-3098</a> <a href=\"https://issues.apache.org/jira/browse/ZEPPELIN-3656\">ZEPPELIN-3656</a>), and setting up the Jenkins build and deploy pipeline and associated application configuration wrapper and convenience tooling"
+      - task: "Constantly innovated solutions for DevOps and Infrastructure including creating a custom ADLS authentication module allowing users to authenticate against Azure without using shared service principals, creating a custom Zeppelin and Livy CDH parcels providing secure authenticated and encrypted access to cluster via notebooks, providing two patches back to the Apache Zeppelin project (<a href=\"https://issues.apache.org/jira/browse/ZEPPELIN-3098\">ZEPPELIN-3098</a>, <a href=\"https://issues.apache.org/jira/browse/ZEPPELIN-3656\">ZEPPELIN-3656</a>), and setting up the Jenkins build and deploy pipeline and associated application configuration wrapper and convenience tooling"
       - task: Was a key member championing the open-sourcing of the Waimak Spark library, advocating to senior staff about the benefits of open-sourcing projects
-      - task: "Open-sourced the Waimak Spark library, and automated the build and release of the library to Maven Central using Travis. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotiveDataSolutions/waimak</a>"
+      - task: "Open-sourced the Waimak Spark library, and automated the build and release of the library to Maven Central using Travis. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotive&shy;DataSolutions/waimak</a>"
       - task: Managed all internal and external technical communication and engagement around Hadoop infrastructure, typically concerning security and connectivity
     - title: As Data Engineer
       date: November 2017 - current
@@ -73,9 +73,9 @@ education:
     titleLink: "https://ph.ed.ac.uk"
     projects:
     - type: Masters Project
-      title: Radiative Transfer on GPUs
+      title: Radiative Transfer on GPUs using NVIDIA CUDA
     - type: Senior Honors Project
-      title: Lattice QCD on GPUs
+      title: Lattice QCD on GPUs using NVIDIA CUDA
 academicExperience:
   - name: EPSRC Summer Vacation Research Bursary
     location: Edinburgh
