@@ -14,15 +14,22 @@
                 </div>
             </div>
             <div class="row">
-                <div class="twelve columns">
+                <div class="six columns">
                     <p>
-                        <em>Email:&nbsp</em>
+                        <em>Email:&nbsp;</em>
                         <binary-obscured data-before="$contact.emailUser$" data-after="$contact.emailDomain$">@</binary-obscured>
                         <br />
-                        <em>Mobile:&nbsp</em>
+                        <em>Mobile:&nbsp;</em>
                         <binary-obscured data-before="$contact.phoneCountryCode$" data-after="$contact.phoneNumber$"> </binary-obscured>
                         <br />
-                        <em>Website:&nbsp</em> <a href="$contact.website$">$contact.website$</a>
+                        <em>Website:&nbsp;</em> <a href="$contact.website$">$contact.website$</a>
+                    </p>
+                </div>
+                <div class="six columns">
+                    <p>
+                        <em><i class="fab fa-linkedin-in" title="LinkedIn"></i>:&nbsp;</em> <a href="$contact.linkedin$">$contact.linkedin$</a>
+                        <br />
+                        <em><i class="fab fa-github" title="GitHub"></i>:&nbsp;</em> <a href="$contact.github$">$contact.github$</a>
                     </p>
                 </div>
             </div>
@@ -188,8 +195,20 @@
                 </div>
             </div>
             <div class="row">
-                <div class="twelve columns">
-                    $for(technicalSkills)$
+                <div class="six columns">
+                    $for(technicalSkillsLeft)$
+                    <div class="row">
+                        <div class="twelve columns">
+                            <div class="nobreak">
+                            <p><strong>$type$</strong></p>
+                            <p>$skills$</p>
+                            </div>
+                        </div>
+                    </div>
+                    $endfor$
+                </div>
+                 <div class="six columns">
+                    $for(technicalSkillsRight)$
                     <div class="row">
                         <div class="twelve columns">
                             <div class="nobreak">

@@ -30,7 +30,7 @@ after_script:
   - git config --global user.name "$GIT_NAME"
   - export REMOTE=$(git config remote.origin.url | sed 's/.*:\/\///')
   - cd _site
-  - wkhtmltopdf --print-media-type --zoom 1.33 resume.html cv.pdf
+  - wkhtmltopdf --print-media-type --zoom 1.33 --viewport-size 1280x1024 --margin-left 0 --margin-right 0 resume.html cv.pdf
   - cp ../.travis.yml .
   - git init
   - git add -A

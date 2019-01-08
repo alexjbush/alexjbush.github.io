@@ -6,6 +6,8 @@ contact:
   phoneCountryCode: "+44"
   phoneNumber: "7725576052"
   website: "https://alexbu.sh"
+  linkedin: "https://www.linkedin.com/in/alex-j-bush/"
+  github: "https://github.com/alexjbush"
 profile: "A passionate and experienced Hadoop engineer, who's interests span from Spark application development and functional programming in Scala to infrastructure automation and security. With technical leadership experience as both a DevOps Engineer and Data Engineer, this deep cross-functional knowledge allows unique insight into solving Data problems in a creative way, a strong advantage in an industry driven largely by technical innovation."
 workExperience:
   - company: Cox Automotive Data Solutions
@@ -82,13 +84,14 @@ academicExperience:
     positions:
      - title: Undergraduate Research
        date: June 2011 to August 2011
-technicalSkills:
+technicalSkillsLeft:
   - type: Data Engineering Skills
     skills: Apache Spark (Scala), Impala, Hive, Hadoop Java APIs, Kafka
   - type: Hadoop Administration Skills
     skills: Cloudera Manager/Director/Altus, Sentry, Apache Ambari, Ranger 
   - type: Software Engineering Skills
     skills: Scala, Git/Gitflow, Functional Programming, Maven, Akka, Python
+technicalSkillsRight:
   - type: DevOps Skills
     skills: Jenkins, Azure, AWS, Ansible, Docker, Travis, Maven Central
   - type: Infrastructure/Platform Skills
