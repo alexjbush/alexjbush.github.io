@@ -11,9 +11,18 @@ contact:
 profile: "A passionate and experienced Hadoop engineer, who's interests span from Spark application development and functional programming in Scala to infrastructure automation and security. With technical leadership experience as both a DevOps Engineer and Data Engineer, this deep cross-functional knowledge allows unique insight into solving Data problems in a creative way, a strong advantage in an industry driven largely by technical innovation."
 workExperience:
   - company: Cox Automotive Data Solutions
-    role: Hadoop DevOps Engineer/Data Engineer
+    role: Lead Data Engineer/Hadoop DevOps Engineer
     location: London, United Kingdom
     positions:
+    - title: As Lead Data Engineer
+      date: April 2018 - current
+      tasks:
+      - task: Was one of two lead Data Engineering team members, sharing responsibility of the entire Data Engineering pipeline
+      - task: Led internal Data Engineering projects, owning the whole life-cycle (design, implementation, regression testing, release) and maintained existing projects across the estate
+      - task: Was a key contributor to the Waimak Spark library, aiming to provide a BI/Data Science-focused Spark application framework that abstracts away complex Data Engineering productionisation and optimisation code from business logic
+      - task: "Was a key member championing the open-sourcing of the Waimak Spark library, advocating to senior management about the benefits of open-sourcing projects. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotive&shy;DataSolutions/waimak</a>"
+      - task: Mentored junior Data Engineering team members, teaching functional programming concepts and practical software engineering principles
+      - task: Assisted with upskilling BI and Data Science team members both with Hadoop concepts and simple Spark Scala development, and aimed to provided specific tooling they might need
     - title: As Hadoop DevOps Engineer
       date: November 2016 - current
       tasks:
@@ -22,17 +31,8 @@ workExperience:
       - task: Was responsible for migration from non-secure CDH cluster to secure (Kerberos, SSL and HDFS encryption) CDH cluster, including migration of data and projects. Automation of SSL was done using Certmonger SCEP against ADCS NDES
       - task: Was responsible for all Data Engineering/Hadoop infrastructure in the Cloud, including networking, security, RBAC model and administration, AD integration, Azure Data Lake Storage and other Azure storage accounts
       - task: "Constantly innovated solutions for DevOps and Infrastructure including creating a custom ADLS authentication module allowing users to authenticate against Azure without using shared service principals, creating a custom Zeppelin and Livy CDH parcels providing secure authenticated and encrypted access to cluster via notebooks, providing two patches back to the Apache Zeppelin project (<a href=\"https://issues.apache.org/jira/browse/ZEPPELIN-3098\">ZEPPELIN-3098</a>, <a href=\"https://issues.apache.org/jira/browse/ZEPPELIN-3656\">ZEPPELIN-3656</a>), and setting up the Jenkins build and deploy pipeline and associated application configuration wrapper and convenience tooling"
-      - task: Was a key member championing the open-sourcing of the Waimak Spark library, advocating to senior staff about the benefits of open-sourcing projects
-      - task: "Open-sourced the Waimak Spark library, and automated the build and release of the library to Maven Central using Travis. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotive&shy;DataSolutions/waimak</a>"
       - task: Managed all internal and external technical communication and engagement around Hadoop infrastructure, typically concerning security and connectivity
-    - title: As Data Engineer
-      date: November 2017 - current
-      tasks:
-      - task: Was a key contributor to the Waimak Spark library, aiming to provide a BI/Data Science-focused Spark application framework that abstracts away complex Data Engineering productionisation and optimisation code from business logic
-      - task: Led internal Data Engineering projects, owning the whole life-cycle (design, implementation, regression testing, release)
-      - task: Was one of two core Data Engineering team members, sharing responsibility of the entire Data Engineering pipeline
-      - task: Helped to mentor a junior Data Engineering team member, teaching functional programming concepts and practical software engineering principles
-      - task: Assisted with upskilling BI and Data Science team members both with Hadoop concepts and simple Spark Scala development, and aimed to provided specific tooling they might need
+      - task: Led the technical task of open-sourcing the Waimak Spark library, and automated the build and release of the library to Maven Central using Travis. 
   - company: Hortonworks
     role: Senior Consultant
     location: City of London, United Kingdom
