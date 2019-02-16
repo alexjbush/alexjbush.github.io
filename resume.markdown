@@ -18,13 +18,13 @@ workExperience:
       date: April 2018 - current
       tasks:
       - task: Was one of two lead Data Engineering team members, sharing responsibility of the entire Data Engineering pipeline
-      - task: Led internal Data Engineering projects, owning the whole life-cycle (design, implementation, regression testing, release) and maintained existing projects across the estate
+      - task: Led internal Data Engineering projects (Apache Spark), owning the whole life-cycle (design, implementation, regression testing, release) and maintained and optimised existing Spark projects across the estate
       - task: Was a key contributor to the Waimak Spark library, aiming to provide a BI/Data Science-focused Spark application framework that abstracts away complex Data Engineering productionisation and optimisation code from business logic
       - task: "Was a key member championing the open-sourcing of the Waimak Spark library, advocating to senior management about the benefits of open-sourcing projects. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotive&shy;DataSolutions/waimak</a>"
       - task: Mentored junior Data Engineering team members, teaching functional programming concepts and practical software engineering principles
       - task: Assisted with upskilling BI and Data Science team members both with Hadoop concepts and simple Spark Scala development, and aimed to provided specific tooling they might need
     - title: As Hadoop DevOps Engineer
-      date: November 2016 - current
+      date: November 2016 - April 2018
       tasks:
       - task: Automated complete build of secure (Kerberos and SSL) CDH clusters using Ansible and Cloudera Director. Automation was developed locally using custom configured Docker clusters against FreeIPA (and against AD DC/CS automated with Vagrant and Ansible) and in AWS and Azure against FreeIPA and Active Directory
       - task: Wrote a set of cluster benchmarking tools and used the cluster automation scripts to benchmark a variety of AWS and Azure configurations
@@ -95,5 +95,5 @@ technicalSkillsRight:
   - type: DevOps Skills
     skills: Jenkins, Azure, AWS, Ansible, Docker, Travis, Maven Central
   - type: Infrastructure/Platform Skills
-    skills: Linux Administration (CentOS), Bash, Kerberos (AD/FreeIPA), SSL (Certmonger/AD CS) 
+    skills: Linux Administration (CentOS), Bash, Kerberos (AD/FreeIPA), SSL (Certmonger/AD CS), Networking
 ---
