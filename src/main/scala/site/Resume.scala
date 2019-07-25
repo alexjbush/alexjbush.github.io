@@ -26,7 +26,7 @@ object Resume extends FullWidthPage {
           header(
             a(href := "cv.pdf")("A PDF version is available here.")
           ),
-          h1(pageTitle)
+          h1("Alex John Bush")
         ),
         hr,
         section(
@@ -54,13 +54,13 @@ case class ContactInfo(emailUser: String,
   def asFrag: Frag = {
     List(
       List(
-        frag(em(raw("Email:&nbsp;")), tag("binary-obscured")(attr("data-before") := emailUser, attr("data-after") := emailDomain)("@")),
-        frag(em(raw("Mobile:&nbsp;")), tag("binary-obscured")(attr("data-before") := phoneCountryCode, attr("data-after") := phoneNumber)(" ")),
-        frag(em(raw("Website:&nbsp;")), a(href := website)(website))
+        frag(em(raw("Email:&nbsp;")), raw("&nbsp;"), tag("binary-obscured")(attr("data-before") := emailUser, attr("data-after") := emailDomain)("@")),
+        frag(em(raw("Mobile:&nbsp;")), raw("&nbsp;"), tag("binary-obscured")(attr("data-before") := phoneCountryCode, attr("data-after") := phoneNumber)(" ")),
+        frag(em(raw("Website:&nbsp;")), raw("&nbsp;"), a(href := website)(website))
       ),
       List(
-        frag(em(i(`class` := "fab fa-linkedin-in", title := "LinkedIn"), raw(":&nbsp;")), a(href := linkedin)(linkedin)),
-        frag(em(i(`class` := "fab fa-github", title := "GitHub"), raw(":&nbsp;")), a(href := github)(github))
+        frag(em(i(`class` := "fab fa-linkedin-in", title := "LinkedIn"), raw(":&nbsp;")), raw("&nbsp;"), a(href := linkedin)(linkedin)),
+        frag(em(i(`class` := "fab fa-github", title := "GitHub"), raw(":&nbsp;")), raw("&nbsp;"), a(href := github)(github))
       )
     )
       .map(i => div(`class` := "six columns")(p(i.reduceLeft((l, r) => frag(l, br, r)))))

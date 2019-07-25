@@ -6,7 +6,7 @@ import ba.sake.hepek.html.component.BasicComponents
 import ba.sake.hepek.html.statik.{StaticPage, StaticSiteSettings}
 import scalatags.Text.all._
 import scalatags.Text.tags2.{main, nav, section}
-import site.{About, Archives, Contact, Index, Resume}
+import site._
 
 
 trait BasePage extends StaticPage with Resources with BasicComponents {
@@ -19,7 +19,9 @@ trait BasePage extends StaticPage with Resources with BasicComponents {
       .withMainPages(topPages)
 
   override def styleURLs: List[String] = super.styleURLs ++ List(
-    relTo(styles.css("main")),
+    relTo(styles.css("skeleton")),
+    relTo(styles.css("normalize")),
+    relTo(styles.css("custom")),
     "https://fonts.googleapis.com/css?family=Lato:400,900&amp;subset=latin-ext",
     "https://use.fontawesome.com/releases/v5.6.3/css/brands.css",
     "https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css"
@@ -80,8 +82,8 @@ trait FullWidthPage extends BasePage {
           div(`class` := "seven columns")(
             topPages.map(
               p =>
-                a(`class` := "nav-link", href := p.ref)(p.pageTitle)
-            ): _*
+                List[scalatags.text.Frag](a(`class` := "nav-link", href := p.ref)(p.pageTitle))
+            ).reduceLeft((l, r) => l ++ List(raw("&nbsp;")) ++ r): _*
           )
         )
       )
