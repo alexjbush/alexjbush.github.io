@@ -19,9 +19,7 @@ trait BasePage extends StaticPage with Resources with BasicComponents {
       .withMainPages(topPages)
 
   override def styleURLs: List[String] = super.styleURLs ++ List(
-    relTo(styles.css("skeleton")),
-    relTo(styles.css("normalize")),
-    relTo(styles.css("custom")),
+    relTo(styles.css("main")),
     "https://fonts.googleapis.com/css?family=Lato:400,900&amp;subset=latin-ext",
     "https://use.fontawesome.com/releases/v5.6.3/css/brands.css",
     "https://use.fontawesome.com/releases/v5.6.3/css/fontawesome.css"
@@ -83,7 +81,7 @@ trait FullWidthPage extends BasePage {
             topPages.map(
               p =>
                 List[scalatags.text.Frag](a(`class` := "nav-link", href := p.ref)(p.pageTitle))
-            ).reduceLeft((l, r) => l ++ List(raw("&nbsp;")) ++ r): _*
+            ).reduceLeft((l, r) => l ++ List(stringFrag(" ")) ++ r): _*
           )
         )
       )
