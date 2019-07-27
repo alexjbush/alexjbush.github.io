@@ -99,6 +99,58 @@ object Resume extends FullWidthPage {
     )
   )
 
+  val education = Education(
+    School(
+      "University of Edinburgh",
+      "https://ed.ac.uk",
+      "MPhys",
+      "Masters in Computational Physics with Honors",
+      "https://ph.ed.ac.uk",
+      Project(
+        "Masters Project",
+        "Radiative Transfer on GPUs using NVIDIA CUDA"
+      ),
+      Project(
+        "Senior Honors Project",
+        "Lattice QCD on GPUs using NVIDIA CUDA"
+      )
+    )
+  )
+
+  val academicExperience = AcademicExperience(
+    AcademicAward(
+      "EPSRC Summer Vacation Research Bursary",
+      "Edinburgh",
+      AcademicPosition(
+        "Undergraduate Research",
+        "June 2011 to August 2011"
+      )
+    )
+  )
+
+  val technicalSkills = TechnicalSkills(
+    Skills(
+      "Data Engineering Skills",
+      "Apache Spark (Scala), Impala, Hive, Hadoop Java APIs, Kafka"
+    ),
+    Skills(
+      "Hadoop Administration Skills",
+      "Cloudera Manager/Director/Altus, Sentry, Apache Ambari, Ranger"
+    ),
+    Skills(
+      "Software Engineering Skills",
+      "Scala, Git/Gitflow, Functional Programming, Maven, Akka, Python"
+    ),
+    Skills(
+      "DevOps Skills",
+      "Jenkins, Azure, AWS, Ansible, Docker, Travis, Maven Central"
+    ),
+    Skills(
+      "Infrastructure/Platform Skills",
+      "Linux Administration (CentOS), Bash, Kerberos (AD/FreeIPA), SSL (Certmonger/AD CS), Networking"
+    )
+  )
+
   override def pageBody: Text.all.Frag = frag(
     article(
       div(`class` := "container nobreak")(
@@ -150,7 +202,53 @@ object Resume extends FullWidthPage {
               workExperience.asFrag
             )
           )
-        )
+        ),
+        hr,
+        section(
+          div(`class` := "row")(
+            div(`class` := "twelve columns")(
+              p(`class` := "upper")(
+                raw("Education")
+              )
+            )
+          ),
+          div(`class` := "row")(
+            div(`class` := "twelve columns")(
+              education.asFrag,
+              br
+            )
+          )
+        ),
+        hr,
+        section(
+          div(`class` := "row")(
+            div(`class` := "twelve columns")(
+              p(`class` := "upper")(
+                raw("Academic Experience")
+              )
+            )
+          ),
+          div(`class` := "row")(
+            div(`class` := "twelve columns")(
+              academicExperience.asFrag,
+              br
+            )
+          )
+        ),
+        hr,
+        section(
+          div(`class` := "row")(
+            div(`class` := "twelve columns")(
+              p(`class` := "upper")(
+                raw("Technical Skills")
+              )
+            )
+          ),
+          div(`class` := "row")(
+            technicalSkills.asFrag,
+          )
+        ),
+        hr
       )
     )
   )
@@ -222,4 +320,112 @@ case class Position(title: String, date: String, tasks: String*) {
       )
     )
   }
+}
+
+case class Education(schools: School*) {
+  def asFrag: Frag = frag(schools.map(_.asFrag), br)
+}
+
+case class School(name: String, url: String, award: String, titleName: String, titleLink: String, projects: Project*) {
+  def asFrag: Frag = {
+    frag(
+      div(`class` := "row")(
+        div(`class` := "twelve columns")(
+          div(`class` := "nobreak")(
+            p(
+              strong(
+                a(href := url)(name)
+              )
+            )
+          )
+        )
+      ),
+      div(`class` := "row")(
+        div(`class` := "one column")(),
+        div(`class` := "eleven columns")(
+          div(`class` := "nobreak")(
+            p(award, ", ", a(href := titleLink)(titleName)),
+            if (projects.nonEmpty) ul {
+              projects.map(_.asFrag)
+            }
+            else frag()
+          )
+        )
+      )
+    )
+  }
+}
+
+case class Project(`type`: String, title: String) {
+  def asFrag: Frag =
+    li(
+      `type`, ": ", strong(title)
+    )
+}
+
+case class AcademicExperience(awards: AcademicAward*) {
+  def asFrag: Frag = frag(awards.map(_.asFrag))
+}
+
+case class AcademicAward(name: String, location: String, positions: AcademicPosition*) {
+  def asFrag: Frag = {
+    frag(
+      div(`class` := "row")(
+        div(`class` := "twelve columns")(
+          div(`class` := "nobreak")(
+            p(
+              strong(name),
+              raw("&nbsp;&nbsp;"),
+              location
+            )
+          )
+        )
+      ),
+      positions.map(_.asFrag)
+    )
+  }
+}
+
+case class AcademicPosition(title: String, date: String) {
+  def asFrag: Frag =
+    div(`class` := "row")(
+      div(`class` := "one column")(),
+      div(`class` := "eleven columns")(
+        div(`class` := "nobreak")(
+          p(
+            em(title),
+            strong(`class` := "u-pull-right")(date)
+          )
+        )
+      )
+    )
+}
+
+case class TechnicalSkills(skills: Skills*) {
+
+  val (l, r) = skills.splitAt(Math.ceil(skills.length / 2.0).toInt)
+
+  def asFrag: Frag =
+    frag(
+      List(l, r)
+        .map(
+          v =>
+            div(`class` := "six columns")(
+              v.map(_.asFrag)
+            )
+        )
+    )
+
+}
+
+case class Skills(`type`: String, skills: String) {
+  def asFrag: Frag =
+    div(`class` := "row")(
+      div(`class` := "twelve columns")(
+        div(`class` := "nobreak")(
+          p(strong(`type`)),
+          p(skills)
+        )
+      )
+    )
 }
