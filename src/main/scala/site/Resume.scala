@@ -214,8 +214,7 @@ object Resume extends FullWidthPage {
           ),
           div(`class` := "row")(
             div(`class` := "twelve columns")(
-              education.asFrag,
-              br
+              education.asFrag
             )
           )
         ),
@@ -230,8 +229,7 @@ object Resume extends FullWidthPage {
           ),
           div(`class` := "row")(
             div(`class` := "twelve columns")(
-              academicExperience.asFrag,
-              br
+              academicExperience.asFrag
             )
           )
         ),
