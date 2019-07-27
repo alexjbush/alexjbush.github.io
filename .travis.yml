@@ -2,7 +2,7 @@ dist: xenial
 
 language: scala
 
-jdk: oraclejdk8
+jdk: openjdk8
 
 cache:
   directories:
