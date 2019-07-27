@@ -247,8 +247,7 @@ object Resume extends FullWidthPage {
           div(`class` := "row")(
             technicalSkills.asFrag,
           )
-        ),
-        hr
+        )
       )
     )
   )
@@ -323,7 +322,7 @@ case class Position(title: String, date: String, tasks: String*) {
 }
 
 case class Education(schools: School*) {
-  def asFrag: Frag = frag(schools.map(_.asFrag), br)
+  def asFrag: Frag = frag(schools.map(_.asFrag))
 }
 
 case class School(name: String, url: String, award: String, titleName: String, titleLink: String, projects: Project*) {
