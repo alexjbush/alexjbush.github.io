@@ -43,8 +43,7 @@ object Resume extends FullWidthPage {
         "Was one of two lead Data Engineering team members, sharing responsibility of the entire Data Engineering pipeline and platform",
         "Led internal Data Engineering projects (Apache Spark), owning the whole life-cycle (design, implementation, regression testing, release) and maintained and optimised existing Spark projects across the estate",
         "Acted as Azure Cloud SME within the company, offering advice and best practices for wider architectural and networking designs and implementations",
-        "Was a key contributor to the Waimak Spark library, aiming to provide a BI/Data Science-focused Spark application framework that abstracts away complex Data Engineering productionisation and optimisation code from business logic",
-        """Was a key member championing the open-sourcing of the Waimak Spark library, advocating to senior management about the benefits of open-sourcing projects. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotive&shy;DataSolutions/waimak</a>""",
+        """Was a key contributor to the Waimak Spark library, aiming to provide a BI/Data Science-focused Spark application framework that abstracts away complex Data Engineering productionisation and optimisation code from business logic. Also championed the open-sourcing of the library, advocating to senior management about the benefits of open-sourcing projects. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotive&shy;DataSolutions/waimak</a>""",
         "Mentored junior Data Engineering team members, teaching functional programming concepts and practical software engineering principles",
         "Assisted with upskilling BI and Data Science team members both with Hadoop concepts and simple Spark Scala development, and aimed to provided specific tooling they might need"
       ),
@@ -56,7 +55,6 @@ object Resume extends FullWidthPage {
         "Was responsible for migration from non-secure CDH cluster to secure (Kerberos, SSL and HDFS encryption) CDH cluster, including migration of data and projects. Automation of SSL was done using Certmonger SCEP against ADCS NDES",
         "Was responsible for all Data Engineering/Hadoop infrastructure in the Cloud, including networking, security, RBAC model and administration, AD integration, Azure Data Lake Storage and other Azure storage accounts",
         """Constantly innovated solutions for DevOps and Infrastructure including creating a custom ADLS authentication module, creating custom Zeppelin and Livy CDH parcels, providing patches back to the Apache Zeppelin project, and setting up the Jenkins build and deploy pipeline and associated application configuration wrapper and tooling""",
-        "Managed all internal and external technical communication and engagement around Hadoop infrastructure, typically concerning security and connectivity",
         "Led the technical task of open-sourcing the Waimak Spark library, and automated the build and release of the library to Maven Central using Travis"
       )
     ),
@@ -71,9 +69,7 @@ object Resume extends FullWidthPage {
         "Implemented a wide range of security features, including Ranger with SSL and Kerberos over a load-balancer",
         "Supported multiple projects through development and test and eventually deployment into production",
         "Designed and implemented a disaster recovery solution for HDFS, Hive, HBase and Kafka to increase resilience and platform confidence",
-        "Performed multiple HDP version upgrades through development clusters to production clusters and worked closely with Hortonworks engineering to fix upgrade issues so the fixes were pushed back into the HDP stack for future upgrades",
-        "Optimized the Hadoop cluster on clients existing infrastructure, and set up high availability load-balanced solution for Oozie",
-        "Created custom alerting solutions based on metrics derived from Storm and Kafka"
+        "Performed multiple HDP version upgrades through development clusters to production clusters and worked closely with Hortonworks engineering to fix upgrade issues so the fixes were pushed back into the HDP stack for future upgrades"
       ),
       Position(
         "Multinational Banking and Financial Services Company",
