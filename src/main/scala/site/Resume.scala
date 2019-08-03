@@ -28,20 +28,26 @@ object Resume extends FullWidthPage {
       |a strong advantage in an industry driven largely by technical innovation.
     """.stripMargin.replaceAll("\n", " ")
 
-  //Custom deployment framework (waimak bot)
-
   val workExperience = WorkExperience(
+    Company(
+      "KPMG Lighthouse",
+      "Manager (Data Engineer)",
+      "Wellington, New Zealand",
+      Position(
+        "As Data Engineer",
+        "September 2019 - current"
+      )
+    ),
     Company(
       "Cox Automotive Data Solutions",
       "Lead Data Engineer/Hadoop DevOps Engineer",
       "London, United Kingdom",
       Position(
         "As Lead Data Engineer",
-        "April 2018 - current",
-        "Co-led architectural design, planning and execution of migration of entire Data platform, data assets and data pipelines from Cloudera (HDFS, YARN, Impala) IaaS platform to Azure Databricks (ADLS, Spark) PaaS platform. Involved phased migration of projects resulting in zero downtime of data pipelines and delivered significant reduction in operational expenses",
-        "Developed custom build and deployment tool for teams to self-management the building, provisioning and running of data pipelines in isolated environments in Azure Databricks",
-        "Was one of two lead Data Engineering team members, sharing responsibility of the entire Data Engineering pipeline and platform",
-        "Led internal Data Engineering projects (Apache Spark), owning the whole life-cycle (design, implementation, regression testing, release) and maintained and optimised existing Spark projects across the estate",
+        "April 2018 - August 2019",
+        "Co-led architectural design, planning and execution of migration of entire Data platform, data assets and data pipelines from Cloudera (HDFS, YARN, Impala) IaaS platform to Azure Databricks (ADLS, Spark) PaaS platform. Involved phased migration of projects with zero downtime of data pipelines and delivered significant reduction in operational expenses",
+        "Developed build and deployment application for teams to self-management the building, provisioning and running of data pipelines in isolated environments in Azure Databricks",
+        "Was one of two lead Data Engineering team members, sharing responsibility of the entire Data Engineering pipeline and platform leading internal Data Engineering projects in Apache Spark, throughout design, implementation, regression testing, release and optimisation",
         "Acted as Azure Cloud SME within the company, offering advice and best practices for wider architectural and networking designs and implementations",
         """Was a key contributor to the Waimak Spark library, aiming to provide a BI/Data Science-focused Spark application framework that abstracts away complex Data Engineering productionisation and optimisation code from business logic. Also championed the open-sourcing of the library, advocating to senior management about the benefits of open-sourcing projects. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotive&shy;DataSolutions/waimak</a>""",
         "Mentored junior Data Engineering team members, teaching functional programming concepts and practical software engineering principles and assisted with upskilling of BI and Data Science team members both with Hadoop concepts and simple Spark Scala development"
@@ -83,9 +89,9 @@ object Resume extends FullWidthPage {
       Position(
         "Hadoop Platform Engineer",
         "January 2015 to December 2015",
-        "Formed a core part of the Hadoop Administration team whose daily tasks included managing multiple production Hadoop clusters, KDC administration and key distribution and DNS management",
-        "Heavily involved with the parallel migration of several hundred node production clusters through major Hortonworks release versions",
-        "Automated end-to-end creation of Hadoop clusters on physical machines and in Cloud infrastructure using Ansible (infrastructure-as-code methodology) including provisioning of physical machines and Cloud instances and cluster builds using Ambari Blueprints, Kerberos and Knox"
+        "Formed a core part of the Hadoop Administration team whose daily tasks included managing multiple production Hadoop clusters",
+        "Heavily involved with the parallel migration of several hundred-node production clusters through major Hortonworks release versions",
+        "Automated end-to-end creation of Hadoop clusters on physical machines and in Cloud infrastructure using Ansible, Kickstart and Ambari Blueprints"
       ),
       Position(
         "Graduate Hadoop Software Developer",
