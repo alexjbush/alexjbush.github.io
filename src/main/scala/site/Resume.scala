@@ -69,7 +69,7 @@ object Resume extends FullWidthPage {
         "Implemented a wide range of security features, including Ranger with SSL and Kerberos over a load-balancer",
         "Supported multiple projects through development and test and eventually deployment into production",
         "Designed and implemented a disaster recovery solution for HDFS, Hive, HBase and Kafka to increase resilience and platform confidence",
-        "Performed multiple HDP version upgrades through development clusters to production clusters and worked closely with Hortonworks engineering to fix upgrade issues so the fixes were pushed back into the HDP stack for future upgrades"
+        "Performed multiple HDP version upgrades through development clusters to production clusters and worked closely with Hortonworks engineering to triage and fix bugs in the HDP stack"
       ),
       Position(
         "Multinational Banking and Financial Services Company",
