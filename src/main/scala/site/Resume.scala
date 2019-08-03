@@ -39,22 +39,21 @@ object Resume extends FullWidthPage {
         "As Lead Data Engineer",
         "April 2018 - current",
         "Co-led architectural design, planning and execution of migration of entire Data platform, data assets and data pipelines from Cloudera (HDFS, YARN, Impala) IaaS platform to Azure Databricks (ADLS, Spark) PaaS platform. Involved phased migration of projects resulting in zero downtime of data pipelines and delivered significant reduction in operational expenses",
-        "Developed custom build and deployment tool for the self-management of teams to build, provision and run data pipelines in isolated environments in Azure Databricks",
+        "Developed custom build and deployment tool for teams to self-management the building, provisioning and running of data pipelines in isolated environments in Azure Databricks",
         "Was one of two lead Data Engineering team members, sharing responsibility of the entire Data Engineering pipeline and platform",
         "Led internal Data Engineering projects (Apache Spark), owning the whole life-cycle (design, implementation, regression testing, release) and maintained and optimised existing Spark projects across the estate",
         "Acted as Azure Cloud SME within the company, offering advice and best practices for wider architectural and networking designs and implementations",
         """Was a key contributor to the Waimak Spark library, aiming to provide a BI/Data Science-focused Spark application framework that abstracts away complex Data Engineering productionisation and optimisation code from business logic. Also championed the open-sourcing of the library, advocating to senior management about the benefits of open-sourcing projects. The library can be found at: <a href=\"https://github.com/CoxAutomotiveDataSolutions/waimak\">github.com/CoxAutomotive&shy;DataSolutions/waimak</a>""",
-        "Mentored junior Data Engineering team members, teaching functional programming concepts and practical software engineering principles",
-        "Assisted with upskilling BI and Data Science team members both with Hadoop concepts and simple Spark Scala development, and aimed to provided specific tooling they might need"
+        "Mentored junior Data Engineering team members, teaching functional programming concepts and practical software engineering principles and assisted with upskilling of BI and Data Science team members both with Hadoop concepts and simple Spark Scala development"
       ),
       Position(
         "As Hadoop DevOps Engineer",
         "November 2016 - April 2018",
         "Automated complete build of secure (Kerberos and SSL) CDH clusters using Ansible and Cloudera Director. Automation was developed locally using custom configured Docker clusters against FreeIPA (and against AD DC/CS automated with Vagrant and Ansible) and in AWS and Azure against FreeIPA and Active Directory",
         "Wrote a set of cluster benchmarking tools and used the cluster automation scripts to benchmark a variety of AWS and Azure configurations",
-        "Was responsible for migration from non-secure CDH cluster to secure (Kerberos, SSL and HDFS encryption) CDH cluster, including migration of data and projects. Automation of SSL was done using Certmonger SCEP against ADCS NDES",
+        "Was responsible for migration from non-secure CDH cluster to secure (Kerberos, SSL and HDFS encryption) CDH cluster, including migration of data and projects",
         "Was responsible for all Data Engineering/Hadoop infrastructure in the Cloud, including networking, security, RBAC model and administration, AD integration, Azure Data Lake Storage and other Azure storage accounts",
-        """Constantly innovated solutions for DevOps and Infrastructure including creating a custom ADLS authentication module, creating custom Zeppelin and Livy CDH parcels, providing patches back to the Apache Zeppelin project, and setting up the Jenkins build and deploy pipeline and associated application configuration wrapper and tooling""",
+        """Constantly innovated solutions for DevOps and Infrastructure including creating a custom ADLS authentication module, creating custom Zeppelin and Livy CDH parcels, providing patches back to the Apache Zeppelin project, and setting up the Jenkins build and deploy pipeline""",
         "Led the technical task of open-sourcing the Waimak Spark library, and automated the build and release of the library to Maven Central using Travis"
       )
     ),
