@@ -23,7 +23,7 @@ object Resume extends FullWidthPage {
     """
       |A passionate and experienced Hadoop engineer, who's interests span from Spark application
       |development and functional programming in Scala to infrastructure automation and security.
-      |With technical leadership experience as both a DevOps Engineer and Data Engineer, this deep
+      |With technical leadership experience as both a DevOps Engineer and Data Engineer across both on-premises and in both the AWS and Azure clouds, this deep
       |cross-functional knowledge allows unique insight into solving Data problems in a creative way,
       |a strong advantage in an industry driven largely by technical innovation.
     """.stripMargin.replaceAll("\n", " ")
@@ -55,8 +55,9 @@ object Resume extends FullWidthPage {
       Position(
         "As Hadoop DevOps Engineer",
         "November 2016 - April 2018",
-        "Automated complete build of secure (Kerberos and SSL) CDH clusters using Ansible and Cloudera Director. Automation was developed locally using custom configured Docker clusters against FreeIPA (and against AD DC/CS automated with Vagrant and Ansible) and in AWS and Azure against FreeIPA and Active Directory",
-        "Wrote a set of cluster benchmarking tools and used the cluster automation scripts to benchmark a variety of AWS and Azure configurations",
+        "Automated complete build of secure (Kerberos and SSL) CDH clusters using Ansible and Cloudera Director for use locally in Docker and for both Azure and AWS cloud environments",
+        "Wrote a set of cluster benchmarking tools and benchmarked performance of various AWS and Azure instance configurations",
+        "Acted as both AWS and Azure cloud SME within the business unit, architecting and implementing all technical infrastructure solutions for the team",
         "Was responsible for migration from non-secure CDH cluster to secure (Kerberos, SSL and HDFS encryption) CDH cluster, including migration of data and projects",
         "Was responsible for all Data Engineering/Hadoop infrastructure in the Cloud, including networking, security, RBAC model and administration, AD integration, Azure Data Lake Storage and other Azure storage accounts",
         """Constantly innovated solutions for DevOps and Infrastructure including creating a custom ADLS authentication module, creating custom Zeppelin and Livy CDH parcels, providing patches back to the Apache Zeppelin project, and setting up the Jenkins build and deploy pipeline""",
@@ -79,7 +80,7 @@ object Resume extends FullWidthPage {
       Position(
         "Multinational Banking and Financial Services Company",
         "December 2015",
-        "Rapid deployment of Hortonworks PoC Security benchmark cluster utilising entire HDP security suite including HDFS/HBase encryption zones (Ranger KMS), Kerberos and Knox"
+        "Rapid deployment of Hortonworks PoC Security benchmark cluster in AWS utilising entire HDP security suite including HDFS/HBase encryption zones (Ranger KMS), Kerberos and Knox"
       )
     ),
     Company(
@@ -91,7 +92,7 @@ object Resume extends FullWidthPage {
         "January 2015 to December 2015",
         "Formed a core part of the Hadoop Administration team whose daily tasks included managing multiple production Hadoop clusters",
         "Heavily involved with the parallel migration of several hundred-node production clusters through major Hortonworks release versions",
-        "Automated end-to-end creation of Hadoop clusters on physical machines and in Cloud infrastructure using Ansible, Kickstart and Ambari Blueprints"
+        "Automated end-to-end creation of Hadoop clusters on physical machines and in AWS cloud using Ansible, Kickstart and Ambari Blueprints"
       ),
       Position(
         "Graduate Hadoop Software Developer",
@@ -145,6 +146,10 @@ object Resume extends FullWidthPage {
 
   val technicalSkills = TechnicalSkills(
     Skills(
+      "Cloud and PaaS Skills",
+      "Azure, Azure Databricks, Azure Datalake Storage, Azure KeyVault, Amazon Web Services (AWS), S3, EMR, Athena, Presto")
+      ,
+    Skills(
       "Data Engineering Skills",
       "Apache Spark (Scala), Impala, Hive, Hadoop Java APIs, Kafka"
     ),
@@ -163,10 +168,7 @@ object Resume extends FullWidthPage {
     Skills(
       "Infrastructure/Platform Skills",
       "Linux Administration (CentOS), Bash, Kerberos (AD/FreeIPA), SSL (Certmonger/AD CS), Networking"
-    ),
-    Skills(
-      "Cloud and PaaS Skills",
-      "Azure, AWS, Azure Databricks, Azure Datalake Storage, Azure KeyVault")
+    )
   )
 
   override def pageBody: Text.all.Frag = frag(
