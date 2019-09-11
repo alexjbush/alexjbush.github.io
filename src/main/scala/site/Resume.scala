@@ -4,7 +4,8 @@ import scalatags.Text
 import scalatags.Text.all._
 import scalatags.Text.tags2.{article, section}
 import templates.FullWidthPage
-
+import scala.collection.JavaConversions.seqAsJavaList
+import scala.collection.immutable.Vector
 object Resume extends FullWidthPage {
 
   override def pageTitle: String = "Resume"
