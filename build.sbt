@@ -29,6 +29,7 @@ lazy val root = (project in file("."))
     },
     WebKeys.webModulesLib := "site/lib"
   )
+  .aggregate(euler)
   .dependsOn(euler)
   .enablePlugins(HepekPlugin, SbtWeb)
 
