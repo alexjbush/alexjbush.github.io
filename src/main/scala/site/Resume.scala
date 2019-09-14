@@ -12,8 +12,8 @@ object Resume extends FullWidthPage {
   val contactInfo: ContactInfo = ContactInfo(
     "alex.john.bush",
     "gmail.com",
-    "+44",
-    "7725576052",
+    "+64",
+    "20 4196 0194",
     "https://alexbu.sh",
     "https://www.linkedin.com/in/alex-j-bush/",
     "https://github.com/alexjbush"
