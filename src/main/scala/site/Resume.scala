@@ -140,7 +140,8 @@ object Resume extends FullWidthPage {
       "Spark + AI Summit Europe",
       "Amsterdam, Netherlands",
       "October 2019",
-      "Best Practices for Building and Deploying Data Pipelines in Apache Spark"
+      "Best Practices for Building and Deploying Data Pipelines in Apache Spark",
+      "https://youtu.be/1WUIua-xjJA"
     )
   )
 
@@ -439,7 +440,7 @@ case class SpeakingExperience(talks: Talk*) {
   }
 }
 
-case class Talk(event: String, location: String, date: String, title: String) {
+case class Talk(event: String, location: String, date: String, title: String, link: String) {
   def asFrag: Frag = {
     frag(
       div(`class` := "row")(
@@ -453,6 +454,9 @@ case class Talk(event: String, location: String, date: String, title: String) {
             p(
               em(title),
               strong(`class` := "u-pull-right")(date)
+            ),
+            p(
+              a(href:=link)(link)
             )
           )
         )
