@@ -31,10 +31,10 @@ object Resume extends FullWidthPage {
   val workExperience = WorkExperience(
     Company(
       "KPMG Lighthouse",
-      "Manager (Data Engineer)",
+      "Lead Data Engineer",
       "Wellington, New Zealand",
       Position(
-        "As Data Engineer",
+        "As Lead Data Engineer",
         "September 2019 - current"
       )
     ),
@@ -56,7 +56,6 @@ object Resume extends FullWidthPage {
         "As Hadoop DevOps Engineer",
         "November 2016 - April 2018",
         "Automated complete build of secure (Kerberos and SSL) CDH clusters using Ansible and Cloudera Director for use locally in Docker and for both Azure and AWS cloud environments",
-        "Wrote a set of cluster benchmarking tools and benchmarked performance of various AWS and Azure instance configurations",
         "Acted as both AWS and Azure cloud SME within the business unit, architecting and implementing all technical infrastructure solutions for the team",
         "Was responsible for migration from non-secure CDH cluster to secure (Kerberos, SSL and HDFS encryption) CDH cluster, including migration of data and projects",
         "Was responsible for all Data Engineering/Hadoop infrastructure in the Cloud, including networking, security, RBAC model and administration, AD integration, Azure Data Lake Storage and other Azure storage accounts",
@@ -74,13 +73,11 @@ object Resume extends FullWidthPage {
         "Supported the installation and configuration of development through to production clusters using full HDP stack (Hive, HBase, Storm, Kafka, Flume, Spark, HDFS, Ranger, Knox, Solr, Oozie)",
         "Implemented a wide range of security features, including Ranger with SSL and Kerberos over a load-balancer",
         "Supported multiple projects through development and test and eventually deployment into production",
-        "Designed and implemented a disaster recovery solution for HDFS, Hive, HBase and Kafka to increase resilience and platform confidence",
-        "Performed multiple HDP version upgrades through development clusters to production clusters and worked closely with Hortonworks engineering to triage and fix bugs in the HDP stack"
+        "Designed and implemented a disaster recovery solution for HDFS, Hive, HBase and Kafka to increase resilience and platform confidence"
       ),
       Position(
         "Multinational Banking and Financial Services Company",
-        "December 2015",
-        "Rapid deployment of Hortonworks PoC Security benchmark cluster in AWS utilising entire HDP security suite including HDFS/HBase encryption zones (Ranger KMS), Kerberos and Knox"
+        "December 2015"
       )
     ),
     Company(
@@ -132,6 +129,14 @@ object Resume extends FullWidthPage {
         "Undergraduate Research",
         "June 2011 to August 2011"
       )
+    )
+  )
+
+  val certifications = Certifications(
+    Certification(
+      "AWS Certified Big Data - Specialty",
+      "Amazon Web Services (AWS)",
+      "https://www.certmetrics.com/amazon/public/badge.aspx?i=8&t=c&d=2020-01-16&ci=AWS01016729"
     )
   )
 
@@ -255,6 +260,19 @@ object Resume extends FullWidthPage {
                 )
               )
             )
+          )
+        ),
+        hr,
+        section(
+          div(`class` := "row")(
+            div(`class` := "twelve columns")(
+              p(`class` := "upper")(
+                raw("Certifications")
+              )
+            )
+          ),
+          div(`class` := "row")(
+            certifications.asFrag,
           )
         ),
         hr,
@@ -432,6 +450,33 @@ case class AcademicPosition(title: String, date: String) {
         )
       )
     )
+}
+
+case class Certifications(certifications: Certification*) {
+  def asFrag: Frag = {
+    certifications.map(_.asFrag).reduceLeft((l, r)=> frag(l, br, r))
+  }
+}
+
+case class Certification(name: String, company: String, link: String) {
+  def asFrag: Frag = {
+    frag(
+      div(`class` := "row")(
+        div(`class` := "twelve columns")(
+          div(`class` := "nobreak")(
+            p(
+              strong(name),
+              raw("&nbsp;&nbsp;"),
+              company
+            ),
+            p(
+              a(href:=link)(link)
+            )
+          )
+        )
+      )
+    )
+  }
 }
 
 case class SpeakingExperience(talks: Talk*) {
