@@ -9,6 +9,8 @@ object Resume extends FullWidthPage {
 
   override def pageTitle: String = "Resume"
 
+  def shyify(input: String, breakOn: String): String = input.replace(breakOn, s"$breakOn&shy;")
+
   val contactInfo: ContactInfo = ContactInfo(
     "alex.john.bush",
     "gmail.com",
@@ -137,6 +139,11 @@ object Resume extends FullWidthPage {
       "AWS Certified Big Data - Specialty",
       "Amazon Web Services (AWS)",
       "https://www.certmetrics.com/amazon/public/badge.aspx?i=8&t=c&d=2020-01-16&ci=AWS01016729"
+    ),
+    Certification(
+      "Microsoft Certified: Azure Data Engineer Associate",
+      "Microsoft",
+      "https://www.youracclaim.com/badges/78ec65f8-ab4a-4657-9252-e282ef678eb0"
     )
   )
 
@@ -454,15 +461,24 @@ case class AcademicPosition(title: String, date: String) {
 
 case class Certifications(certifications: Certification*) {
   def asFrag: Frag = {
-    certifications.map(_.asFrag).reduceLeft((l, r)=> frag(l, br, r))
+    val (lhs, rhs) = certifications.splitAt(certifications.length / 2)
+    frag(
+      div(`class` := "row")(
+        div(`class` := "six columns")(
+          lhs.map(_.asFrag).reduceLeft((l, r)=> frag(l, br, r))
+        ),
+        div(`class` := "six columns")(
+          rhs.map(_.asFrag).reduceLeft((l, r)=> frag(l, br, r))
+        )
+      )
+    )
   }
 }
 
 case class Certification(name: String, company: String, link: String) {
   def asFrag: Frag = {
     frag(
-      div(`class` := "row")(
-        div(`class` := "twelve columns")(
+
           div(`class` := "nobreak")(
             p(
               strong(name),
@@ -470,11 +486,10 @@ case class Certification(name: String, company: String, link: String) {
               company
             ),
             p(
-              a(href:=link)(link)
+              a(href:=link)(raw(Resume.shyify(link, "/")))
             )
           )
-        )
-      )
+
     )
   }
 }
