@@ -7,6 +7,13 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: "The Other Name : Septology I-II"
+  authors:
+  - Jon Fosse
+  translators:
+  - Damion Searls
+  status: To read
+
 - title: In Memory of Memory
   authors:
   - Maria Stepanova
@@ -14,3 +21,117 @@
   translators:
   - Sasha Dugdale
   started: 2022-04-20
+
+- title: The Bone People
+  authors:
+  - Keri Hulme
+  status: Finished
+  started: 2022-03-20
+  finished: 2022-04-12
+
+- title: The Mirror and the Light
+  authors:
+  - Hilary Mantel
+  status: Finished
+  started: 2022-02-06
+  finished: 2022-04-12
+
+- title: A View from the Bridge
+  authors:
+  - Arthur Miller
+  status: Finished
+  started: 2022-03-20
+  finished: 2022-03-25
+
+- title: Childhood, Youth, Dependency
+  authors:
+  - Tove Ditlevsen
+  translators:
+  - Tiina Nunnally
+  - Michael Favala Goldman
+  status: Finished
+  started: 2022-03-10
+  finished: 2022-03-19
+
+- title: Urn Burial
+  authors:
+  - Thomas Browne
+  status: Finished
+  started: 2022-02-27
+  finished: 2022-03-14
+
+- title: Brideshead Revisited
+  authors:
+  - Evelyn Waugh
+  status: Finished
+  started: 2022-02-01
+  finished: 2022-02-06
+
+- title: Transit
+  authors:
+  - Rachel Cusk
+  status: Finished
+  started: 2022-01-26
+  finished: 2022-01-30
+
+- title: Six Impossible Things
+  authors:
+  - John Gribbin
+  status: Finished
+  started: 2022-01-16
+  finished: 2022-01-29
+
+- title: Lonesome Dove
+  authors:
+  - Larry McMurtry
+  status: Finished
+  started: 2022-01-13
+  finished: 2022-01-23
+
+- title: The Rings of Saturn
+  authors:
+  - W. G. Sebald
+  translators:
+  - Michael Hulse
+  status: Finished
+  started: 2021-12-26
+  finished: 2022-01-02
+
+- title: Elephant
+  authors:
+  - Raymond Carver
+  status: Finished
+  started: 2021-12-13
+  finished: 2021-12-19
+
+- title: Solutions and Other Problems
+  authors:
+  - Allie Brosh
+  status: Finished
+  started: 2021-12-12
+  finished: 2021-12-18
+
+- title: Gratitude
+  authors:
+  - Oliver Sacks
+  status: Finished
+  started: 2021-12-11
+  finished: 2021-12-11
+
+- title: This is Pleasure
+  authors:
+  - Mary Gaitskill
+  status: Finished
+  started: 2021-12-10
+  finished: 2021-12-10
+
+- title: In Search of Lost Time Volume II Within a Budding Grove
+  authors:
+  - Marcel Proust
+  translators:
+  - C.K. Scott Moncrieff
+  - Terence Kilmartin
+  - D.J. Enright
+  status: Finished
+  started: 2021-11-30
+  finished: 2021-12-09
