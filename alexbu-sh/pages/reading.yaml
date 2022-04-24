@@ -1,0 +1,16 @@
+# - title: string,
+#   authors:
+#   - string,
+#   status: string   Current, Finished, Given up, To read
+#   translators:
+#   - string
+#   started: yyyy-MM-dd,
+#   finished: yyyy-MM-dd
+
+- title: In Memory of Memory
+  authors:
+  - Maria Stepanova
+  status: Current
+  translators:
+  - Sasha Dugdale
+  started: 2022-04-20
