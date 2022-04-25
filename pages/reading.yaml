@@ -140,3 +140,265 @@
   status: Finished
   started: 2021-11-30
   finished: 2021-12-09
+
+- title: Dubliners
+  authors:
+  - James Joyce
+  status: Finished
+  started: 2020-12-01
+  finished: 2021-01-19
+
+- title: Imagining Decolonisation
+  authors:
+  - Bianca Elkington
+  - Moana Jackson
+  - Rebecca Kiddle
+  - Ocean Ripeka Mercier
+  - Mike Ross
+  - Jennie Smeaton
+  - Amanda Thomas
+  status: Finished
+  started: 2020-12-02
+  finished: 2021-01-12
+
+- title: Wolf Hall
+  authors:
+  - Hilary Mantel
+  status: Finished
+  started: 2020-12-03
+  finished: 2021-01-11
+
+- title: Maybe You Should Talk to Someone
+  authors:
+  - Lori Gottlieb
+  status: Finished
+  started: 2021-01-14
+  finished: 2021-01-21
+
+- title: Outlines
+  authors:
+  - Rachel Cusk
+  status: Finished
+  started: 2021-01-22
+  finished: 2021-01-24
+
+- title: Northern Lights
+  authors:
+  - Philip Pullman
+  status: Finished
+  started: 2021-01-24
+  finished: 2021-01-31
+
+- title: "Fear and Loathing in Las Vegas: A Savage Journey to the Heart of the American Dream"
+  authors:
+  - Hunter S. Thompson
+  status: Finished
+  started: 2021-02-01
+  finished: 2021-02-05
+
+- title: In Praise of Shadows
+  authors:
+  - Jun'ichirō Tanizaki
+  translators:
+  - Edward Seidensticker
+  status: Finished
+  started: 2021-02-05
+  finished: 2021-02-06
+
+- title: Autumn
+  authors:
+  - Ali Smith
+  status: Finished
+  started: 2021-02-06
+  finished: 2021-02-07
+
+- title: "Tiny Moons: A Year of Eating in Shanghai"
+  authors:
+  - Nina Mingya Powles
+  status: Finished
+  started: 2021-02-08
+  finished: 2021-02-24
+
+- title: "The Peregrine"
+  authors:
+  - J. A. Baker
+  status: Finished
+  started: 2021-02-08
+  finished: 2021-02-23
+
+- title: "The Third Policeman"
+  authors:
+  - Flann O'Brien
+  status: Finished
+  started: 2021-02-24
+  finished: 2021-03-01
+
+- title: Flights
+  authors:
+  - Olga Tokarczuk
+  translators:
+  - Jennifer Croft
+  status: Finished
+  started: 2021-03-01
+  finished: 2021-03-18
+
+- title: The Rime of the Ancient Mariner
+  authors:
+  - Samuel Taylor Coleridge
+  status: Finished
+  started: 2021-03-18
+  finished: 2021-03-18
+
+- title: Inadvertent
+  authors:
+  - Karl Ove Knausgård
+  translators:
+  - Ingvild Burkey
+  status: Finished
+  started: 2021-03-18
+  finished: 2021-03-21
+
+- title: "Thus Spoke Zarathustra: A Book for All and None"
+  authors:
+  - Friedrich Nietzsche
+  translators:
+  - R. J. Hollingdale
+  status: Given up
+  started: 2021-03-21
+  finished: 2021-04-21
+
+- title: Klara and the Sun
+  authors:
+  - Kazuo Ishiguro
+  status: Finished
+  started: 2021-03-25
+  finished: 2021-03-31
+
+- title: Pale Fire
+  authors:
+  - Vladimir Nabokov
+  status: Finished
+  started: 2021-03-21
+  finished: 2021-04-05
+
+- title: Brief Notes on the Art and Manner of Arranging One's Books
+  authors:
+  - Georges Perec
+  translators:
+  - John Sturrock
+  status: Finished
+  started: 2021-04-04
+  finished: 2021-04-05
+
+- title: Our Mutual Friend
+  authors:
+  - Charles Dickens
+  status: Finished
+  started: 2021-04-05
+  finished: 2021-04-25
+
+- title: What if We Stopped Pretending?
+  authors:
+  - Jonathan Franzen
+  status: Finished
+  started: 2021-04-26
+  finished: 2021-04-26
+
+- title: The Talented Mr. Ripley
+  authors:
+  - Patricia Highsmith
+  status: Finished
+  started: 2021-04-26
+  finished: 2021-04-30
+
+- title: "What Is Existentialism?"
+  authors:
+  - Simone De Beauvoir
+  translators:
+  - Marybeth Timmermann
+  status: Given up
+  started: 2021-05-01
+  finished: 2021-05-02
+
+- title: Rosencrantz and Guildenstern Are Dead
+  authors:
+  - Tom Stoppard
+  status: Finished
+  started: 2021-05-12
+  finished: 2021-05-14
+
+- title: Far from the Madding Crowd
+  authors:
+  - Thomas Hardy
+  status: Finished
+  started: 2021-05-18
+  finished: 2021-05-24
+
+- title: Arcadia
+  authors:
+  - Tom Stoppard
+  status: Finished
+  started: 2021-05-14
+  finished: 2021-05-18
+
+- title: "In Search of Lost Time Volume I: Swann's Way"
+  authors:
+  - Marcel Proust
+  translators:
+  - C. K. Scott Moncrieff
+  - Terence Kilmartin
+  - D. J. Enright
+  status: Finished
+  started: 2021-07-01
+  finished: 2021-07-05
+
+- title: "Howards End"
+  authors:
+  - E. M. Forster
+  translators:
+  status: Finished
+  started: 2021-08-01
+  finished: 2021-08-05
+
+- title: The Razor's Edge
+  authors:
+  - W. Somerset Maugham
+  translators:
+  status: Finished
+  started: 2021-09-01
+  finished: 2021-09-05
+
+- title: "The Leopard"
+  authors:
+  - Giuseppe Tomasi Di Lampedusa
+  translators:
+  - Archibald Colquhoun
+  status: Finished
+  started: 2021-10-01
+  finished: 2021-10-05
+
+- title: "The Murders in the Rue Morgue and Other Tales"
+  authors:
+  - Edgar Allan Poe
+  status: Finished
+  started: 2021-11-01
+  finished: 2021-11-05
+
+- title: "One Day in the Life of Ivan Denisovich"
+  authors:
+  - Aleksandr Solzhenitsyn
+  translators:
+  - Ralph Parker
+  status: Finished
+  started: 2021-12-01
+  finished: 2021-12-05
+
+- title: "The End: My Struggle: Book 6"
+  authors:
+  - Karl Ove Knausgård
+  translators:
+  - Don Bartlett
+  - Martin Aitken
+  status: Finished
+  started: 2020-03-01
+  finished: 2020-06-05
