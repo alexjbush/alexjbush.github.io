@@ -416,3 +416,43 @@
   status: Finished
   started: 2020-03-01
   finished: 2020-06-05
+
+- title: "The Lonely City"
+  authors:
+  - Olivia Laing
+  status: Finished
+  started: 2020-02-01
+  finished: 2020-03-05
+
+- title: "Sightlines"
+  authors:
+  - Kathleen Jamie
+  status: Finished
+  started: 2019-01-06
+  finished: 2019-01-10
+
+- title: "Findings"
+  authors:
+  - Kathleen Jamie
+  status: Finished
+  started: 2020-08-06
+  finished: 2020-08-10
+
+- title: "Surfacing"
+  authors:
+  - Kathleen Jamie
+  status: Finished
+  started: 2021-08-06
+  finished: 2021-08-10
+
+- title: "The Diary of a Young Girl"
+  authors:
+  - Anne Frank
+  translators:
+  - Susan Massotty
+  editors:
+  - Otto M. Frank
+  - Mirjam Pressler
+  status: Finished
+  started: 2021-06-06
+  finished: 2021-06-10
