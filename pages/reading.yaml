@@ -19,11 +19,18 @@
   - Christopher Logue
   status: To read
 
+- title: "D3 for the Impatient: Interactive Graphics for Programmers and Scientists"
+  authors:
+  - Philipp K. Janert
+  status: Current
+  started: 2022-05-03
+
 - title: Should We Stay Or Should We Go
   authors:
   - Lionel Shriver
-  status: Current
+  status: Finished
   started: 2022-04-29
+  finished: 2022-05-03
 
 - title: In Memory of Memory
   authors:
