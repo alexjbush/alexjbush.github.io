@@ -1,0 +1,136 @@
+personal:
+  name: Alex John Bush
+  email: alex.john.bush@gmail.com
+  phone: +64 20 4196 0196
+  github: github.com/alexjbush
+  linkedin: linkedin.com/in/alex-j-bush
+
+work:
+- company: KPMG New Zealand
+  from: 2019-08-28
+  #to:
+  #comment: Blah **blah**
+  positions:
+  - title: Associate Director
+    from: 2022-04-01
+    #to:
+    #comment: Blah *blah*
+  - title: Senior Manager
+    from: 2021-04-01
+    to: 2022-03-31
+    #comment: Blah *blah*
+  - title: Manager
+    from: 2019-08-28
+    to: 2021-03-31
+    #comment: Blah *blah*
+- company: Cox Automotive
+  from: 2016-11-01
+  to: 2019-08-16
+  #comment: Blah **blah**
+  positions:
+  - title: Lead Data Engineer
+    from: 2018-04-01
+    to: 2019-08-16
+    #comment: Blah
+  - title: Hadoop DevOps Engineer
+    from: 2016-11-01
+    to: 2018-03-31
+    #comment: Blah
+- company: Hortonworks
+  from: 2015-12-01
+  to: 2016-11-01
+  #comment: Blah **blah**
+  positions:
+  - title: Senior Consultant
+    from: 2015-12-01
+    to: 2016-11-01
+    #comment: Blah
+- company: British Gas
+  from: 2013-09-01
+  to: 2015-11-01
+  #comment: Blah **blah**
+  positions:
+  - title: Hadoop Platform Engineer
+    from: 2015-01-01
+    to: 2015-11-01
+    #comment: Blah
+  - title: Graduate Hadoop Software Developer
+    from: 2014-05-01
+    to: 2015-01-01
+    #comment: Blah
+  - title: Hadoop Platform Engineer
+    from: 2013-09-01
+    to: 2014-05-01
+    #comment: Blah
+
+education:
+  university: University of Edinburgh
+  course: MPhys, Masters in Computational Physics with Honors
+  projects:
+  - purpose: Masters Project
+    title: Radiative Transfer on GPUs using NVIDIA CUDA
+  - purpose: Senior Honors Project
+    title: Lattice QCD on GPUs using NVIDIA CUDA
+
+certifications:
+- title: "Microsoft Certified: Azure Solutions Architect Expert"
+  provider: Microsoft
+  from: 2022-02-01
+  to: 2023-02-01
+- title: "Microsoft Certified: DevOps Engineer Expert"
+  provider: Microsoft
+  from: 2022-01-01
+  to: 2023-01-01
+- title: "Microsoft Certified: Azure Data Engineer Associate"
+  provider: Microsoft
+  from: 2020-04-01
+  to: 2023-04-01
+- title: "Microsoft Certified: Azure Security Engineer Associate"
+  provider: Microsoft
+  from: 2020-09-01
+  to: 2022-09-01
+- title: "Microsoft Certified: Azure Developer Associate"
+  provider: Microsoft
+  from: 2022-02-01
+  to: 2023-02-01
+- title: "Microsoft Certified: Azure Administrator Associate"
+  provider: Microsoft
+  from: 2022-01-01
+  to: 2023-01-01
+- title: "AWS Certified Big Data - Specialty"
+  provider: Amazon Web Services (AWS)
+  from: 2020-01-01
+  to: 2023-01-01
+- title: "HDP Certified Administrator"
+  provider: Hortonworks
+  from: 2016-04-01
+
+skills:
+- category: Data Engineering
+  skills:
+  - Apache Spark
+  - SQL
+  - Hive
+  - Databricks
+- category: Software Engineering
+  skills:
+  - Scala
+  - Python
+  - C#
+  - Functional Programming
+- category: Cloud Engineering
+  skills:
+  - Azure
+  - AWS
+- category: DevOps / Automation
+  skills:
+  - Azure DevOps
+  - Azure Pipelines
+  - ARM / BICEP
+  - Bash
+  - Github
+  - Github Actions
+- category: Infrastructure / Platform
+  skills:
+  - Linux / Unix
+  - SSL / Certificates
