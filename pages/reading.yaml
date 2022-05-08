@@ -19,6 +19,14 @@
   - Christopher Logue
   status: To read
 
+- title: "The World of Yesterday: Memoirs of a European"
+  authors:
+  - Stefan Zweig
+  status: Current
+  translators:
+  - Anthea Bell
+  started: 2022-05-09
+
 - title: "D3 for the Impatient: Interactive Graphics for Programmers and Scientists"
   authors:
   - Philipp K. Janert
@@ -35,10 +43,11 @@
 - title: In Memory of Memory
   authors:
   - Maria Stepanova
-  status: Current
+  status: Finished
   translators:
   - Sasha Dugdale
   started: 2022-04-20
+  finished: 2022-05-08
 
 - title: The Bone People
   authors:
