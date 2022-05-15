@@ -184,6 +184,20 @@
   started: 2021-11-30
   finished: 2021-12-09
 
+- title: East of Eden
+  authors:
+  - John Steinbeck
+  status: Finished
+  started: 2020-11-06
+  finished: 2020-11-07
+
+- title: A Moveable Feast
+  authors:
+  - Ernest Hemingway
+  status: Finished
+  started: 2020-06-06
+  finished: 2020-06-07
+
 - title: Dubliners
   authors:
   - James Joyce
