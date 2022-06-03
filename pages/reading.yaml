@@ -29,10 +29,11 @@
 - title: "The World of Yesterday: Memoirs of a European"
   authors:
   - Stefan Zweig
-  status: Current
+  status: Finished
   translators:
   - Anthea Bell
   started: 2022-05-09
+  finished: 2022-06-03
 
 - title: "D3 for the Impatient: Interactive Graphics for Programmers and Scientists"
   authors:
