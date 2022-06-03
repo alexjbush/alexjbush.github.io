@@ -97,6 +97,10 @@ certifications:
   provider: Microsoft
   from: 2022-01-01
   to: 2023-01-01
+- title: "Microsoft Certified: Azure Cosmos DB Developer Specialty"
+  provider: Microsoft
+  from: 2022-06-03
+  to: 2023-06-03
 - title: "AWS Certified Big Data - Specialty"
   provider: Amazon Web Services (AWS)
   from: 2020-01-01
