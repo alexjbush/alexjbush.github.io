@@ -26,13 +26,20 @@
   - Christopher Logue
   status: To read
 
+- title: Essayism
+  authors:
+  - Brian Dillon
+  status: Current
+  started: 2022-06-05
+
 - title: "Chess Story"
   authors:
   - Stefan Zweig
-  status: Started
+  status: Finished
   translators:
   - Joel Rotenberg
   started: 2022-06-03
+  finished: 2022-06-05
 
 - title: "The World of Yesterday: Memoirs of a European"
   authors:
