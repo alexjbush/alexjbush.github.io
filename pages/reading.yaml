@@ -42,6 +42,13 @@
   status: Current
   started: 2022-06-05
 
+- title: Jacob's Room
+  authors:
+  - Virginia Woolf
+  status: Finished 
+  started: 2022-06-20
+  finished: 2022-07-01
+
 - title: "Chess Story"
   authors:
   - Stefan Zweig
