@@ -26,6 +26,12 @@
   - Christopher Logue
   status: To read
 
+- title: Who's Afraid of Virginia Woolf
+  authors:
+  - Edward Albee
+  status: Current
+  started: 2022-07-19
+
 - title: "In Search of Lost Time Volume III: The Guermantes Way"
   authors:
   - Marcel Proust
@@ -33,8 +39,9 @@
   - C. K. Scott Moncrieff
   - Terence Kilmartin
   - D. J. Enright
-  status: Current
+  status: Finished
   started: 2022-06-06
+  finished: 2022-07-19
 
 - title: Essayism
   authors:
