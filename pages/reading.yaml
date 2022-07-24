@@ -25,12 +25,19 @@
   authors:
   - Christopher Logue
   status: To read
+  
+- title: The Bell Jar
+  authors:
+  - Sylvia Plath
+  status: Current
+  started: 2022-07-21
 
 - title: Who's Afraid of Virginia Woolf
   authors:
   - Edward Albee
-  status: Current
+  status: Finished
   started: 2022-07-19
+  finished: 2022-07-21
 
 - title: "In Search of Lost Time Volume III: The Guermantes Way"
   authors:
