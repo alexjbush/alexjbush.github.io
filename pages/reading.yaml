@@ -26,11 +26,18 @@
   - Christopher Logue
   status: To read
   
+- title: "A Room of One's Own"
+  authors:
+  - Virginia Woolf
+  status: Finished 
+  started: 2022-07-30
+
 - title: The Bell Jar
   authors:
   - Sylvia Plath
-  status: Current
+  status: Finished
   started: 2022-07-21
+  finished: 2022-07-30
 
 - title: Who's Afraid of Virginia Woolf
   authors:
