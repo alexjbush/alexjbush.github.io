@@ -58,7 +58,7 @@ work:
     from: 2014-05-01
     to: 2015-01-01
     #comment: Blah
-  - title: Hadoop Platform Engineer
+  - title: Graduate SAP Developer
     from: 2013-09-01
     to: 2014-05-01
     #comment: Blah
@@ -121,6 +121,7 @@ skills:
   - Scala
   - Python
   - C#
+  - TypeScript
   - Functional Programming
 - category: Cloud Engineering
   skills:
@@ -134,7 +135,9 @@ skills:
   - Bash
   - Github
   - Github Actions
+  - Pulumi
 - category: Infrastructure / Platform
   skills:
   - Linux / Unix
   - SSL / Certificates
+  - Networking
