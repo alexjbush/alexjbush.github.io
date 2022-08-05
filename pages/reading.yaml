@@ -25,12 +25,19 @@
   authors:
   - Christopher Logue
   status: To read
+
+- title: Spring
+  authors:
+  - Ali Smith
+  status: Current
+  started: 2022-08-05
   
 - title: "A Room of One's Own"
   authors:
   - Virginia Woolf
-  status: Current
+  status: Finished
   started: 2022-07-30
+  finished: 2022-08-05
 
 - title: The Bell Jar
   authors:
