@@ -26,11 +26,20 @@
   - Christopher Logue
   status: To read
 
+- title: "The Castle of Crossed Destinies"
+  authors:
+  - Italo Calvino
+  translators:
+  - William Weaver
+  status: Started
+  started: 2022-08-13
+
 - title: Spring
   authors:
   - Ali Smith
-  status: Current
+  status: Finished
   started: 2022-08-05
+  finished: 2022-08-13
 
 - title: Winter
   authors:
