@@ -6,49 +6,70 @@ personal:
   linkedin: linkedin.com/in/alex-j-bush
 
 work:
-- company: KPMG New Zealand
+- company: Digital Lighthouse, KPMG New Zealand (NZ)
   from: 2019-08-28
   #to:
-  #comment: Blah **blah**
+  comment: |
+    **Data and Analytics consultant** leading and delivering projects for **public and private sector clients**.
+    **Drove internal innovation** for tools and platforms to **increase our delivery capability and technical maturity**.
+    Invested heavily in mentoring of team members, **fostering a culture of learning and collaboration** alongside **maintaining delivery excellence**.
   positions:
   - title: Associate Director
     from: 2022-04-01
     #to:
-    #comment: Blah *blah*
+    comment: |
+      **Chapter Lead for Engineering**.
+      Led and oversaw **business development** and **engagement delivery**, and identified and delivered **strategic investments in technology and mentoring** to ensure **delivery capability and capacity**.
+      Managed relationships with senior client stakeholders to ensure **effective delivery of complex engagements**.
   - title: Senior Manager
     from: 2021-04-01
     to: 2022-03-31
-    #comment: Blah *blah*
+    comment: >
+      **Solution design and delivery** of end-to-end **analytics platforms** for public-sector clients.
+      Designed and delivered **zero-trust platform architectures** of PaaS and IaaS infrastructure.
+      Developed **large-scale data processing pipelines in Apache Spark** to support client data modelling.
   - title: Manager
     from: 2019-08-28
     to: 2021-03-31
-    #comment: Blah *blah*
-- company: Cox Automotive
+    comment: >
+      **Led client project delivery**, from Azure Cloud architecture and infrastructure automation, to back-end application development and data reporting.
+      Increased the **technical maturity of the team**, running **workshops and designing best practices for delivery** on topics such as Git, advanced SQL, Apache Spark, testing and automation, cloud architecture.
+- company: Cox Automotive (UK)
   from: 2016-11-01
   to: 2019-08-16
-  #comment: Blah **blah**
+  comment: |
+    **Data Engineering team lead**, **supporting Business Intelligence (BI) and Data Science (DS) teams** with data and platforms to **enable effective business analytics**.
+    Enabled principle of **self-service analytics and ETL development** for BI and DS teams through **strategic use of tool and framework development, workshop and collaboration sessions, and interactive consultation** (summarised in a **talk given at the Spark Summit 2019** ([youtu.be/1WUIua-xjJA](https://youtu.be/1WUIua-xjJA))).
   positions:
   - title: Lead Data Engineer
     from: 2018-04-01
     to: 2019-08-16
-    #comment: Blah
+    comment: |
+      Delivered **data-driven products**, supported BI and DS teams to **productionise data and machine-learning models**, and **responsible for platform and data pipelines**.
+      Performed **zero-downtime platform migration** from **Cloudera (IaaS) to Azure Databricks (PaaS)**. 
+      **Core contributor to Waimak**, our open-source Apache Spark library ([github.com/​CoxAutomotiveDataSolutions/​waimak](https://github.com/CoxAutomotiveDataSolutions/waimak)).
   - title: Hadoop DevOps Engineer
     from: 2016-11-01
     to: 2018-03-31
-    #comment: Blah
-- company: Hortonworks
+    comment: |
+      **Automated deployment of Cloudera platform**, and **migrated platform onto a secure platform** (Kerberos, SSL, RBAC).
+      Responsible for all **automation of project and environment builds and deployment**.
+      Released Waimak, an **open-source Apache Spark library** developed by the team.
+- company: Hortonworks (UK)
   from: 2015-12-01
   to: 2016-11-01
-  #comment: Blah **blah**
+  comment: |
+    **Professional services consultant** providing Hadoop **implementation, administration and developer** services to banking-sector clients.
   positions:
   - title: Senior Consultant
     from: 2015-12-01
     to: 2016-11-01
     #comment: Blah
-- company: British Gas
+- company: British Gas (UK)
   from: 2013-09-01
   to: 2015-11-01
-  #comment: Blah **blah**
+  comment: |
+    **Developer** and **Platform Engineer** delivering **ETL pipeline development**, and **infrastructure and platform automation** to support large on-premises **Hadoop clusters**.
   positions:
   - title: Hadoop Platform Engineer
     from: 2015-01-01
@@ -105,9 +126,9 @@ certifications:
   provider: Amazon Web Services (AWS)
   from: 2020-01-01
   to: 2023-01-01
-- title: "HDP Certified Administrator"
-  provider: Hortonworks
-  from: 2016-04-01
+# - title: "HDP Certified Administrator"
+#   provider: Hortonworks
+#   from: 2016-04-01
 
 skills:
 - category: Data Engineering
