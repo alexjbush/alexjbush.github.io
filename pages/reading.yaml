@@ -7,11 +7,28 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: Annihilation
+  authors:
+  - Jeff VanderMeer
+  status: Finished
+  started: 2022-09-02
+  finished: 2022-09-04
+
+- title: Fictions
+  authors:
+  - Jorge Luis Borges
+  translators:
+  - Andrew Hurley
+  status: Finished
+  started: 2022-08-28
+  finished: 2022-09-01
+
 - title: Kudos
   authors:
   - Rachel Cusk
-  status: Current
+  status: Finished
   started: 2022-08-20
+  finished: 2022-08-27
 
 - title: Austerlitz
   authors:
@@ -34,7 +51,7 @@
 
 - title: "Camera Lucida"
   authors:
-  - Italo Calvino
+  - Roland Barthes
   translators:
   - Richard Howard
   status: Finished
