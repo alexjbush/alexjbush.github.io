@@ -7,12 +7,19 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: Summer
+  authors:
+  - Ali Smith
+  status: Current
+  started: 2022-09-10
+#  finished: 2022-08-27
+
 - title: Second Place
   authors:
   - Rachel Cusk
   status: Current
   started: 2022-09-04
-#  finished: 2022-08-27
+  finished: 2022-09-10
 
 - title: Annihilation
   authors:
@@ -151,12 +158,6 @@
   - Anthea Bell
   started: 2022-05-09
   finished: 2022-06-03
-
-- title: "D3 for the Impatient: Interactive Graphics for Programmers and Scientists"
-  authors:
-  - Philipp K. Janert
-  status: Current
-  started: 2022-05-03
 
 - title: Tropic of Cancer
   authors:
