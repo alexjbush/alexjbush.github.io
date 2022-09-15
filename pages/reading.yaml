@@ -7,6 +7,19 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: "The RSC Shakespeare: The Complete Works"
+  authors:
+  - William Shakespeare
+  editors:
+  - Jonathan Bate
+  - Eric Rasmussen
+  status: Current
+  started: 2022-09-12
+  books:
+  - title: The Tempest
+    date: 2022-09-16
+#  finished: 2022-08-27
+
 - title: Summer
   authors:
   - Ali Smith
