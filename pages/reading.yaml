@@ -20,12 +20,19 @@
     date: 2022-09-16
 #  finished: 2022-08-27
 
+- title: Know My Name
+  authors:
+  - Chanel Miller
+  status: Current
+  started: 2022-09-18
+#  finished: 2022-09-20
+
 - title: Summer
   authors:
   - Ali Smith
-  status: Current
+  status: Finished
   started: 2022-09-10
-#  finished: 2022-08-27
+  finished: 2022-09-20
 
 - title: Second Place
   authors:
