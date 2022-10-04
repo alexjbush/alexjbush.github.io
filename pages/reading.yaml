@@ -20,12 +20,19 @@
     date: 2022-09-16
 #  finished: 2022-08-27
 
+- title: We Have Always Lived in the Castle
+  authors:
+  - Shirley Jackson
+  status: Current
+  started: 2022-10-04
+#  finished: 2022-10-01
+
 - title: The Friend
   authors:
   - Sigrid Nunez
-  status: Current
+  status: Finished
   started: 2022-10-01
-#  finished: 2022-10-01
+  finished: 2022-10-04
 
 - title: Know My Name
   authors:
