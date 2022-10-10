@@ -20,12 +20,19 @@
     date: 2022-09-16
 #  finished: 2022-08-27
 
+- title: The Life and Adventures of Nicholas Nickleby
+  authors:
+  - Charles Dickens
+  status: Current
+  started: 2022-10-10
+#  finished: 2022-10-25
+
 - title: We Have Always Lived in the Castle
   authors:
   - Shirley Jackson
-  status: Current
+  status: Finished
   started: 2022-10-04
-#  finished: 2022-10-01
+  finished: 2022-10-10
 
 - title: The Friend
   authors:
