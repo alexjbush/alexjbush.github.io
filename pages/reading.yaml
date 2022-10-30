@@ -7,18 +7,19 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
-- title: "The RSC Shakespeare: The Complete Works"
+- title: "The Tempest"
   authors:
   - William Shakespeare
-  editors:
-  - Jonathan Bate
-  - Eric Rasmussen
-  status: Current
+  status: Finished
   started: 2022-09-12
-  books:
-  - title: The Tempest
-    date: 2022-09-16
-#  finished: 2022-08-27
+  finished: 2022-09-16
+
+- title: "The Collector"
+  authors:
+  - John Fowles
+  status: Finished
+  started: 2022-10-12
+  finished: 2022-10-14
 
 - title: The Life and Adventures of Nicholas Nickleby
   authors:
