@@ -7,6 +7,15 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: Species of Spaces and Other Pieces
+  authors:
+  - George Perec
+  translators:
+  - John Sturrock
+  status: Current
+  started: 2022-11-07
+#  finished:
+
 - title: "The Tempest"
   authors:
   - William Shakespeare
@@ -28,7 +37,7 @@
   - Charles Dickens
   status: Current
   started: 2022-10-10
-#  finished: 2022-10-25
+  finished: 2022-11-08
   isbn-13: 9780140435122
 
 - title: We Have Always Lived in the Castle
