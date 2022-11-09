@@ -6,16 +6,21 @@ personal:
   linkedin: linkedin.com/in/alex-j-bush
 
 work:
+- company: Professional Services, Qrious Limited (NZ)
+  from: 2022-11-07
+  positions:
+  - title: Principal Consultant
+    from: 2022-11-07
 - company: Digital Lighthouse, KPMG New Zealand (NZ)
   from: 2019-08-28
-  #to:
+  to: 2022-11-04
   comment: |
     **Data and Analytics consultant** leading and delivering projects for **public and private sector clients**.
     **Drove internal innovation** for tools and platforms to **increase our delivery capability and technical maturity**.
     Invested heavily in mentoring of team members, **fostering a culture of learning and collaboration** alongside **maintaining delivery excellence**.
   positions:
   - title: Associate Director
-    from: 2022-04-01
+    to: 2022-11-04
     #to:
     comment: |
       **Chapter Lead for Engineering**.
