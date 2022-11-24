@@ -7,6 +7,13 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: On the Beach
+  authors:
+  - Nevil Shute
+  status: Current
+  started: 2022-11-24
+#  finished:
+
 - title: Kokoro
   authors:
   - Natsume Sōseki
