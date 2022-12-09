@@ -17,7 +17,7 @@ work:
   comment: |
     **Data and Analytics consultant** leading and delivering projects for **public and private sector clients**.
     **Drove internal innovation** for tools and platforms to **increase our delivery capability and technical maturity**.
-    Invested heavily in mentoring of team members, **fostering a culture of learning and collaboration** alongside **maintaining delivery excellence**.
+    Invested heavily in mentoring of team members, **fostering a culture of learning and collaboration**.
   positions:
   - title: Associate Director
     to: 2022-11-04
@@ -50,16 +50,15 @@ work:
     from: 2018-04-01
     to: 2019-08-16
     comment: |
-      Delivered **data-driven products**, supported BI and DS teams to **productionise data and machine-learning models**, and **responsible for platform and data pipelines**.
+      Delivered and supported **data-driven platforms, pipelines, and products**, and enabed BI and DS teams by **productionising data and machine-learning models**.
       Performed **zero-downtime platform migration** from **Cloudera (IaaS) to Azure Databricks (PaaS)**. 
-      **Core contributor to Waimak**, our open-source Apache Spark library ([github.com/​CoxAutomotiveDataSolutions/​waimak](https://github.com/CoxAutomotiveDataSolutions/waimak)).
+      **Realeased and was a core contributor to Waimak**, our open-source Apache Spark library ([github.com/​CoxAutomotiveDataSolutions/​waimak](https://github.com/CoxAutomotiveDataSolutions/waimak)).
   - title: Hadoop DevOps Engineer
     from: 2016-11-01
     to: 2018-03-31
     comment: |
       **Automated deployment of Cloudera platform**, and **migrated platform onto a secure platform** (Kerberos, SSL, RBAC).
       Responsible for all **automation of project and environment builds and deployment**.
-      Released Waimak, an **open-source Apache Spark library** developed by the team.
 - company: Hortonworks (UK)
   from: 2015-12-01
   to: 2016-11-01
