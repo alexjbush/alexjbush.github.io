@@ -7,12 +7,21 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: "The Other Name: Septology I-II"
+  authors:
+  - Jon Fosse
+  translators:
+  - Damion Searls
+  status: Current
+  started: 2022-12-07
+# finished:
+
 - title: On the Beach
   authors:
   - Nevil Shute
-  status: Current
+  status: Finished
   started: 2022-11-24
-#  finished:
+  finished: 2022-12-06
 
 - title: Kokoro
   authors:
