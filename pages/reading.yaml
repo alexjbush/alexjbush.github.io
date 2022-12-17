@@ -7,6 +7,14 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: "A Swim in a Pond in the Rain"
+  authors:
+  - George Saunders
+  status: Current
+  started: 2022-11-30
+  audiobook: true
+# finished:
+
 - title: "The Other Name: Septology I-II"
   authors:
   - Jon Fosse
@@ -37,9 +45,9 @@
   - George Perec
   translators:
   - John Sturrock
-  status: Current
+  status: Finished
   started: 2022-11-07
-#  finished:
+  finished: 2022-12-17
 
 - title: "The Tempest"
   authors:
