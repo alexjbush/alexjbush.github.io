@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>http://localhost:4200</loc>
+    </url>
+    <url>
+        <loc>http://localhost:4200/resume</loc>
+    </url>
+    <url>
+        <loc>http://localhost:4200/reading</loc>
+    </url>
+    <url>
+        <loc>http://localhost:4200/writing</loc>
+    </url>
+    <url>
+        <loc>http://localhost:4200/reading.csv</loc>
+    </url>
+    <url>
+        <loc>http://localhost:4200/writing/reviews/TropicOfCancer</loc>
+    </url>
+</urlset>

@@ -15,44 +15,44 @@ work:
   from: 2019-08-28
   to: 2022-11-04
   comment: |
-    **Data and Analytics consultant** leading and delivering projects for **public and private sector clients**.
-    **Drove internal innovation** for tools and platforms to **increase our delivery capability and technical maturity**.
-    Invested heavily in mentoring of team members, **fostering a culture of learning and collaboration**.
+      Led and delivered **Data and Analytics** projects for **public and private sector clients**.
+      **Drove internal innovation** to **increase delivery capability and technical maturity**.
+      **Fostered a culture of learning and collaboration through mentoring**.
   positions:
   - title: Associate Director
     to: 2022-11-04
     #to:
     comment: |
       **Chapter Lead for Engineering**.
-      Led and oversaw **business development** and **engagement delivery**, and identified and delivered **strategic investments in technology and mentoring** to ensure **delivery capability and capacity**.
+      Led **business development** and **engagement delivery**, and identified and delivered **strategic investments in technology and mentoring** to ensure **delivery capability and capacity**.
       Managed relationships with senior client stakeholders to ensure **effective delivery of complex engagements**.
   - title: Senior Manager
     from: 2021-04-01
     to: 2022-03-31
     comment: >
       **Solution design and delivery** of end-to-end **analytics platforms** for public-sector clients.
-      Designed and delivered **zero-trust platform architectures** of PaaS and IaaS infrastructure.
+      Delivered **zero-trust platform architectures** of PaaS and IaaS infrastructure.
       Developed **large-scale data processing pipelines in Apache Spark** to support client data modelling.
   - title: Manager
     from: 2019-08-28
     to: 2021-03-31
     comment: >
       **Led client project delivery**, from Azure Cloud architecture and infrastructure automation, to back-end application development and data reporting.
-      Increased the **technical maturity of the team**, running **workshops and designing best practices for delivery** on topics such as Git, advanced SQL, Apache Spark, testing and automation, cloud architecture.
+      Increased the **technical maturity of the team**, running **workshops and designing best practices for delivery**.
 - company: Cox Automotive (UK)
   from: 2016-11-01
   to: 2019-08-16
   comment: |
     **Data Engineering team lead**, **supporting Business Intelligence (BI) and Data Science (DS) teams** with data and platforms to **enable effective business analytics**.
-    Enabled principle of **self-service analytics and ETL development** for BI and DS teams through **strategic use of tool and framework development, workshop and collaboration sessions, and interactive consultation** (summarised in a **talk given at the Spark Summit 2019** ([youtu.be/1WUIua-xjJA](https://youtu.be/1WUIua-xjJA))).
+    Enabled principle of **self-service analytics and ETL development** for BI and DS teams (summarised in a **talk given at the Spark Summit 2019** ([youtu.be/1WUIua-xjJA](https://youtu.be/1WUIua-xjJA))).
   positions:
   - title: Lead Data Engineer
     from: 2018-04-01
     to: 2019-08-16
     comment: |
-      Delivered and supported **data-driven platforms, pipelines, and products**, and enabed BI and DS teams by **productionising data and machine-learning models**.
+      Delivered and supported **data-driven platforms, pipelines, and products** across BI and DS teams.
       Performed **zero-downtime platform migration** from **Cloudera (IaaS) to Azure Databricks (PaaS)**. 
-      **Realeased and was a core contributor to Waimak**, our open-source Apache Spark library ([github.com/​CoxAutomotiveDataSolutions/​waimak](https://github.com/CoxAutomotiveDataSolutions/waimak)).
+      **Was a core contributor to Waimak**, an open-source Apache Spark library ([github.com/​CoxAutomotiveDataSolutions/​waimak](https://github.com/CoxAutomotiveDataSolutions/waimak)).
   - title: Hadoop DevOps Engineer
     from: 2016-11-01
     to: 2018-03-31
@@ -101,11 +101,11 @@ certifications:
 - title: "Microsoft Certified: Azure Solutions Architect Expert"
   provider: Microsoft
   from: 2022-02-01
-  to: 2023-02-01
+  to: 2024-02-01
 - title: "Microsoft Certified: DevOps Engineer Expert"
   provider: Microsoft
   from: 2022-01-01
-  to: 2023-01-01
+  to: 2024-01-01
 - title: "Microsoft Certified: Azure Data Engineer Associate"
   provider: Microsoft
   from: 2020-04-01
@@ -117,30 +117,23 @@ certifications:
 - title: "Microsoft Certified: Azure Developer Associate"
   provider: Microsoft
   from: 2022-02-01
-  to: 2023-02-01
+  to: 2024-02-01
 - title: "Microsoft Certified: Azure Administrator Associate"
   provider: Microsoft
   from: 2022-01-01
-  to: 2023-01-01
+  to: 2024-01-01
 - title: "Microsoft Certified: Azure Cosmos DB Developer Specialty"
   provider: Microsoft
   from: 2022-06-03
   to: 2023-06-03
-- title: "AWS Certified Big Data - Specialty"
-  provider: Amazon Web Services (AWS)
-  from: 2020-01-01
-  to: 2023-01-01
-# - title: "HDP Certified Administrator"
-#   provider: Hortonworks
-#   from: 2016-04-01
 
 skills:
 - category: Data Engineering
   skills:
   - Apache Spark
   - SQL
-  - Hive
   - Databricks
+  - Snowflake
 - category: Software Engineering
   skills:
   - Scala
@@ -155,14 +148,12 @@ skills:
 - category: DevOps / Automation
   skills:
   - Azure DevOps
-  - Azure Pipelines
   - ARM / Bicep
-  - Bash
   - Github
-  - Github Actions
   - Pulumi
+  - Terraform
 - category: Infrastructure / Platform
   skills:
   - Linux / Unix
-  - SSL / Certificates
+  - Bash
   - Networking

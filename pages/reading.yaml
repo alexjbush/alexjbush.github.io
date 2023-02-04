@@ -7,22 +7,72 @@
 #   started: yyyy-MM-dd,
 #   finished: yyyy-MM-dd
 
+- title: 6 Full-Cast BBC Radio Productions
+  authors:
+  - Anton Chekhov
+  audiobook: true
+  books:
+  - title: Wild Honey
+  - title: The Seagull
+  - title: Ivanov
+  - title: The Cherry Orchard
+  - title: Three Sisters
+  - title: Uncle Vanya
+  status: Current
+  started: 2023-01-24
+#  finished: 2023-02-04
+
+- title: Stoner
+  authors:
+  - John Williams
+  status: Current
+  started: 2023-02-04
+#  finished: 2023-02-04
+
+- title: Coventry
+  authors:
+  - Rachel Cusk
+  status: Finished
+  started: 2023-01-27
+  finished: 2023-02-04
+
+- title: "The Passenger"
+  authors:
+  - Cormac MacCarthy
+  status: Finished
+  started: 2023-01-07
+  finished: 2023-01-20
+
+- title: "Liberation Day: Stories"
+  authors:
+  - George Saunders
+  status: Finished
+  started: 2022-12-30
+  finished: 2023-01-18
+
 - title: "A Swim in a Pond in the Rain"
   authors:
   - George Saunders
-  status: Current
+  status: Finished
   started: 2022-11-30
   audiobook: true
-# finished:
+  finished: 2023-01-18
 
 - title: "The Other Name: Septology I-II"
   authors:
   - Jon Fosse
   translators:
   - Damion Searls
-  status: Current
+  status: Finished
   started: 2022-12-07
-# finished:
+  finished: 2022-12-06
+
+- title: The Diary of a Nobody
+  authors:
+  - George Grossmith
+  status: Finished
+  started: 2022-12-21
+  finished: 2022-12-28
 
 - title: On the Beach
   authors:
