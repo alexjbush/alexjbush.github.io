@@ -4,3 +4,9 @@ reviews:
   authors:
   - Henry Miller
   date: 2022-06-06
+
+- id: TheWorldOfYesterday
+  title: The World Of Yesterday
+  authors:
+  - Stefan Zweig
+  date: 2023-02-05
