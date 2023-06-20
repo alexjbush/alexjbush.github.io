@@ -1,0 +1,1 @@
+import"./hoisted.234c088d.js";var e=!0,s=document.getElementById("menu-toggle"),n=document.getElementById("menu-when-open"),d=document.getElementById("menu-when-closed");function t(){e?(e=!1,n?.classList.add("hidden"),d?.classList.remove("hidden")):(e=!0,n?.classList.remove("hidden"),d?.classList.add("hidden"))}s?.addEventListener("click",t);t();
