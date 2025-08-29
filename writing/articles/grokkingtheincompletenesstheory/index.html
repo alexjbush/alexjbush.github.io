@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Grokking the Incomplete Theory"
+      href="https://alexbu.sh/rss.xml"
+    />
+
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <!-- Canonical URL -->
+    <link
+      rel="canonical"
+      href="https://alexbu.sh/writing/articles/grokkingtheincompletenesstheory/"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>Grokking the Incomplete Theory</title>
+    <meta name="title" content="Grokking the Incomplete Theory" />
+    <meta name="description" content="Grokking the Incomplete Theory" />
+    <link rel="stylesheet" href="/assets/asset.Dygo5GVy.css" />
+  </head>
+  <body>
+    <script type="module">
+      if (document.querySelector("#menu")) {
+        let toggleMenu2 = function () {
+          let menu = document.querySelector("#menu");
+          if (!menu) {
+            return;
+          }
+          if (menu.getAttribute("data-menu") === "open") {
+            menu.setAttribute("data-menu", "closed");
+          } else {
+            menu.setAttribute("data-menu", "open");
+          }
+        };
+        let menuToggle = document.querySelector("#menu-toggle");
+        menuToggle?.addEventListener("click", () => {
+          toggleMenu2();
+        });
+        menuToggle?.removeAttribute("hidden");
+        toggleMenu2();
+      }
+      function applyTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      }
+      function toggleTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          localStorage.setItem("theme", "light");
+        } else {
+          localStorage.setItem("theme", "dark");
+        }
+        applyTheme();
+      }
+      let themeToggle = document.querySelector("#theme-toggle");
+      themeToggle?.addEventListener("click", () => {
+        toggleTheme();
+      });
+      let darkModeToggle = document.querySelector("#dark-mode-toggle");
+      darkModeToggle?.removeAttribute("hidden");
+      var matchFunction =
+        window && typeof window.matchMedia === "function"
+          ? window.matchMedia
+          : void 0;
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          matchFunction &&
+          matchFunction("(prefers-color-scheme: dark)").matches)
+      ) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+      applyTheme();
+    </script>
+
+    <header class="no-print">
+      <div id="menu" data-menu="open">
+        <button hidden id="menu-toggle" aria-label="Toggle navigation menu">
+          Menu
+        </button>
+        <span id="menu-title-page"> Writing </span>
+        <ul id="menu-list">
+          <li class>
+            <a href="/" aria-label="Link to Home section"> Home </a>
+          </li>
+          <li class>
+            <a href="/reading" aria-label="Link to Reading section">
+              Reading
+            </a>
+          </li>
+          <li class="current-page">
+            <a href="/writing" aria-label="Link to Writing section">
+              Writing
+            </a>
+          </li>
+          <li class>
+            <a href="/resume" aria-label="Link to Resume section"> Resume </a>
+          </li>
+        </ul>
+      </div>
+      <div hidden id="dark-mode-toggle">
+        <button
+          title="Toggle theme"
+          aria-label="Toggle dark mode"
+          id="theme-toggle"
+        >
+          Toggle Dark Mode
+        </button>
+      </div>
+    </header>
+
+    <main class="article">
+      <article>
+        <header>
+          <h1>Grokking the Incomplete Theory</h1>
+
+          <span class="published-date">Unpublished</span>
+        </header>
+        <p>
+          Don’t you want to know the meaning of life, the truth, the fundamental
+          question of the universe? And not just number 42. But that’s not a bad
+          place to start, and to you probably would go looking first in maths,
+          that pure landscape of abstract ideas. That’s what the pythagoreans
+          did, and when they encountered the first irrational number they
+          banished those that held this inconvenient truth.
+        </p>
+        <p>
+          So perhaps maths is a good place to start, however not so quick -
+          Godel proves this can never be used. You might also look in quantum
+          mechanics, but you just keep digging and digging and getting more
+          uncertain. Perhaps there is no truth, just endless questions, more and
+          more complex answers. Perhaps, like the meaning of life for
+          absurdists, the truth may or may not exist, but we will never be able
+          to understand it.
+        </p>
+      </article>
+    </main>
+
+    <footer class="no-print">
+      <p class="license-xl">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons Attribution-ShareAlike 4.0 International license</a
+        >.
+      </p>
+      <p class="license-lg">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-md">
+        Licensed under the
+        <a
+          class="underline"
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-sm">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

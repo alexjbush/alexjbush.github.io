@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Cairn"
+      href="https://alexbu.sh/rss.xml"
+    />
+
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://alexbu.sh/writing/reviews/cairn/" />
+
+    <!-- Primary Meta Tags -->
+    <title>Cairn</title>
+    <meta name="title" content="Cairn" />
+    <meta name="description" content="Cairn" />
+    <link rel="stylesheet" href="/assets/asset.Dygo5GVy.css" />
+  </head>
+  <body>
+    <script type="module">
+      if (document.querySelector("#menu")) {
+        let toggleMenu2 = function () {
+          let menu = document.querySelector("#menu");
+          if (!menu) {
+            return;
+          }
+          if (menu.getAttribute("data-menu") === "open") {
+            menu.setAttribute("data-menu", "closed");
+          } else {
+            menu.setAttribute("data-menu", "open");
+          }
+        };
+        let menuToggle = document.querySelector("#menu-toggle");
+        menuToggle?.addEventListener("click", () => {
+          toggleMenu2();
+        });
+        menuToggle?.removeAttribute("hidden");
+        toggleMenu2();
+      }
+      function applyTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      }
+      function toggleTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          localStorage.setItem("theme", "light");
+        } else {
+          localStorage.setItem("theme", "dark");
+        }
+        applyTheme();
+      }
+      let themeToggle = document.querySelector("#theme-toggle");
+      themeToggle?.addEventListener("click", () => {
+        toggleTheme();
+      });
+      let darkModeToggle = document.querySelector("#dark-mode-toggle");
+      darkModeToggle?.removeAttribute("hidden");
+      var matchFunction =
+        window && typeof window.matchMedia === "function"
+          ? window.matchMedia
+          : void 0;
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          matchFunction &&
+          matchFunction("(prefers-color-scheme: dark)").matches)
+      ) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+      applyTheme();
+    </script>
+
+    <header class="no-print">
+      <div id="menu" data-menu="open">
+        <button hidden id="menu-toggle" aria-label="Toggle navigation menu">
+          Menu
+        </button>
+        <span id="menu-title-page"> Writing </span>
+        <ul id="menu-list">
+          <li class>
+            <a href="/" aria-label="Link to Home section"> Home </a>
+          </li>
+          <li class>
+            <a href="/reading" aria-label="Link to Reading section">
+              Reading
+            </a>
+          </li>
+          <li class="current-page">
+            <a href="/writing" aria-label="Link to Writing section">
+              Writing
+            </a>
+          </li>
+          <li class>
+            <a href="/resume" aria-label="Link to Resume section"> Resume </a>
+          </li>
+        </ul>
+      </div>
+      <div hidden id="dark-mode-toggle">
+        <button
+          title="Toggle theme"
+          aria-label="Toggle dark mode"
+          id="theme-toggle"
+        >
+          Toggle Dark Mode
+        </button>
+      </div>
+    </header>
+
+    <main class="article">
+      <article>
+        <header>
+          <h1>Cairn</h1>
+          <h2>Kathleen Jamie</h2>
+          <span class="published-date">
+            Published in <span class="date">July 2024</span>
+          </span>
+        </header>
+        <p>
+          Kathleen Jamie is clear in the prologue that this collection is
+          different to her previous, that this collection addresses much more
+          directly the climate change affecting the natural world she so
+          carefully studies and lyrically describes. As a result, along with the
+          nostalgia for her experiences of time spent in nature is added an
+          additional nostalgia for nature itself in the face of the seemingly
+          inevitable decline of the natural world. Perhaps her previous
+          collection (Surfacing by Kathleen Jamie) hinted at these changes in
+          nature, but she has chosen this time to directly confront them, with
+          the results being less a celebration of nature and more a lamentation.
+          Still, she had done this with all her usually poetical craft with the
+          results being a profound collection of essays and poems touching on
+          the very heart of the natural world. This collections of stories form
+          a kind of Cairn itself on the surface of nature writing by providing
+          markers and direction for humankind. It seems inevitable that this
+          Cairn marks the waypoints of our descent into climate crisis, but
+          there is hope that this is not the only time we may pass this Cairn,
+          we may yet pass it again from the other direction on our future road
+          to recovery from the crisis.
+        </p>
+        <hr />
+        <article class="book-entry">
+          <p>
+            <span class="title">Cairn</span>
+            <span class="authors">Kathleen Jamie</span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">June 2024</span>, finished in
+            <span class="date">June 2024</span>
+          </p>
+        </article>
+      </article>
+    </main>
+
+    <footer class="no-print">
+      <p class="license-xl">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons Attribution-ShareAlike 4.0 International license</a
+        >.
+      </p>
+      <p class="license-lg">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-md">
+        Licensed under the
+        <a
+          class="underline"
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-sm">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

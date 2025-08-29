@@ -1,0 +1,2937 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="AlexBu.sh - Reading"
+      href="https://alexbu.sh/rss.xml"
+    />
+
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://alexbu.sh/reading/" />
+
+    <!-- Primary Meta Tags -->
+    <title>AlexBu.sh - Reading</title>
+    <meta name="title" content="AlexBu.sh - Reading" />
+    <meta
+      name="description"
+      content="A list of books that I have read or are currently reading"
+    />
+    <link rel="stylesheet" href="/assets/asset.Dygo5GVy.css" />
+  </head>
+  <body>
+    <script type="module">
+      if (document.querySelector("#menu")) {
+        let toggleMenu2 = function () {
+          let menu = document.querySelector("#menu");
+          if (!menu) {
+            return;
+          }
+          if (menu.getAttribute("data-menu") === "open") {
+            menu.setAttribute("data-menu", "closed");
+          } else {
+            menu.setAttribute("data-menu", "open");
+          }
+        };
+        let menuToggle = document.querySelector("#menu-toggle");
+        menuToggle?.addEventListener("click", () => {
+          toggleMenu2();
+        });
+        menuToggle?.removeAttribute("hidden");
+        toggleMenu2();
+      }
+      function applyTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      }
+      function toggleTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          localStorage.setItem("theme", "light");
+        } else {
+          localStorage.setItem("theme", "dark");
+        }
+        applyTheme();
+      }
+      let themeToggle = document.querySelector("#theme-toggle");
+      themeToggle?.addEventListener("click", () => {
+        toggleTheme();
+      });
+      let darkModeToggle = document.querySelector("#dark-mode-toggle");
+      darkModeToggle?.removeAttribute("hidden");
+      var matchFunction =
+        window && typeof window.matchMedia === "function"
+          ? window.matchMedia
+          : void 0;
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          matchFunction &&
+          matchFunction("(prefers-color-scheme: dark)").matches)
+      ) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+      applyTheme();
+    </script>
+
+    <header class="no-print">
+      <div id="menu" data-menu="open">
+        <button hidden id="menu-toggle" aria-label="Toggle navigation menu">
+          Menu
+        </button>
+        <span id="menu-title-page"> Reading </span>
+        <ul id="menu-list">
+          <li class>
+            <a href="/" aria-label="Link to Home section"> Home </a>
+          </li>
+          <li class="current-page">
+            <a href="/reading" aria-label="Link to Reading section">
+              Reading
+            </a>
+          </li>
+          <li class>
+            <a href="/writing" aria-label="Link to Writing section">
+              Writing
+            </a>
+          </li>
+          <li class>
+            <a href="/resume" aria-label="Link to Resume section"> Resume </a>
+          </li>
+        </ul>
+      </div>
+      <div hidden id="dark-mode-toggle">
+        <button
+          title="Toggle theme"
+          aria-label="Toggle dark mode"
+          id="theme-toggle"
+        >
+          Toggle Dark Mode
+        </button>
+      </div>
+    </header>
+
+    <main class="reading">
+      <script type="module" src="/entry.hSHN4465.js"></script>
+
+      <section hidden id="book-filter">
+        <input id="reading-input" type="text" placeholder="Filter" />
+        <button aria-label="Clear filter" id="reading-clear">Clear</button>
+      </section>
+      <section class="present book-list">
+        <h1>Present</h1>
+        <ol class="book-list">
+          <li class="book-entry-item" id="book-entry-present--0">
+            <article class="book-entry">
+              <p>
+                <span class="title"
+                  >The Will To Change: Men, Masculinity, and Love</span
+                >
+                <span class="authors">bell hooks</span>
+              </p>
+
+              <p class="book-dates">
+                Started in <span class="date">June 2025</span>
+              </p>
+            </article>
+          </li>
+        </ol>
+      </section>
+
+      <section class="past book-list">
+        <h1>Past</h1>
+        <ol class="year-list">
+          <li class="book-divider" id="book-divider-2025">
+            <span>2025</span>
+            <ol class="book-list">
+              <li class="book-entry-item" id="book-entry-past-2025-0">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Everything I Know About Love</span>
+                    <span class="authors">Dolly Alderton</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2025</span>, finished in
+                    <span class="date">June 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-1">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >In Search of Lost Time Volume VI: Time Regained</span
+                    >
+                    <span class="authors">Marcel Proust</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Andreas Mayor</span>,
+                      <span class="name">Terence Kilmartin</span> and
+                      <span class="name">D. J. Enright</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2025</span>, finished in
+                    <span class="date">June 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-2">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Maniac</span>
+                    <span class="authors">Benjamín Labatut</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2025</span>, finished in
+                    <span class="date">May 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-3">
+                <article class="book-entry given-up">
+                  <p>
+                    <span class="title"
+                      >The Joy of Abstraction: An Exploration of Math, Category
+                      Theory, and Life</span
+                    >
+                    <span class="authors">Eugenia Cheng</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-4">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >The Penguin Book of Japanese Short Stories</span
+                    >
+                    <span class="authors"
+                      >Haruki Murakami, Jun&#39;ichirō Tanizaki, Yukio Mishima,
+                      Yasunari Kawabata and others</span
+                    >
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Jay Rubin</span> and
+                      <span class="name">others</span>
+                    </span>
+                  </p>
+
+                  <p class="editors">
+                    Edited by
+                    <span class="people-list">
+                      <span class="name">Jay Rubin</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2025</span>, finished in
+                    <span class="date">May 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-5">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Food for Life</span>
+                    <span class="authors">Tim Spector</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2025</span>, finished
+                    in <span class="date">April 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-6">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Want</span>
+                    <span class="authors">anonymous</span>
+                  </p>
+
+                  <p class="editors">
+                    Edited by
+                    <span class="people-list">
+                      <span class="name">Gillian Anderson</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2025</span>, finished in
+                    <span class="date">March 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-7">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The English Understand Wool</span>
+                    <span class="authors">Helen DeWitt</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2025</span>, finished in
+                    <span class="date">March 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-8">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Last Samurai</span>
+                    <span class="authors">Helen DeWitt</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2025</span>, finished in
+                    <span class="date">March 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-9">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Wind-Up Bird Chronicle</span>
+                    <span class="authors">Haruki Murakami</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Jay Rubin</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2025</span>, finished
+                    in <span class="date">March 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-10">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Portraits at the Palace of Creativity and Wrecking</span
+                    >
+                    <span class="authors">Han Smith</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2025</span>, finished
+                    in <span class="date">February 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-11">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Cheap Therapist Says You’re Insane</span
+                    >
+                    <span class="authors">Parker Young</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2025</span>, finished
+                    in <span class="date">February 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-12">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Intermezzo</span>
+                    <span class="authors">Sally Rooney</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2025</span>, finished
+                    in <span class="date">January 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-13">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Passion According to G.H.</span>
+                    <span class="authors">Clarice Lispector</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Idra Novey</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2025</span>, finished
+                    in <span class="date">January 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-14">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Sound of a Wild Snail Eating</span>
+                    <span class="authors">Elisabeth Tova Bailey</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2025</span>, finished
+                    in <span class="date">January 2025</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2025-15">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Charles Dickens: A Life</span>
+                    <span class="authors">Claire Tomalin</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2024</span>, finished
+                    in <span class="date">January 2025</span>
+                  </p>
+                </article>
+              </li>
+            </ol>
+          </li>
+          <li class="book-divider" id="book-divider-2024">
+            <span>2024</span>
+            <ol class="book-list">
+              <li class="book-entry-item" id="book-entry-past-2024-0">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Abundance</span>
+                    <span class="authors">Annie Dillard</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2024</span>, finished
+                    in <span class="date">December 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-1">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">All About Love: New Visions</span>
+                    <span class="authors">bell hooks</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2024</span>, finished
+                    in <span class="date">December 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-2">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Rejection</span>
+                    <span class="authors">Tony Tulathimutte</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2024</span>, finished
+                    in <span class="date">November 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-3">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Man Who Ate Everything</span>
+                    <span class="authors">Jeffrey Steingarten</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2024</span>, finished
+                    in <span class="date">November 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-4">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Orbital</span>
+                    <span class="authors">Samantha Harvey</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2024</span>, finished
+                    in <span class="date">November 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-5">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Authority</span>
+                    <span class="authors">Jeff VanderMeer</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2024</span>, finished
+                    in <span class="date">November 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-6">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Strange Case of Dr Jekyll and Mr Hyde</span
+                    >
+                    <span class="authors">Robert Louis Stevenson</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2024</span>, finished
+                    in <span class="date">October 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-7">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >In Search of Lost Time Volume V: The Captive &amp; The
+                      Fugitive</span
+                    >
+                    <span class="authors">Marcel Proust</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">C. K. Scott Moncrieff</span>,
+                      <span class="name">Terence Kilmartin</span> and
+                      <span class="name">D. J. Enright</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2024</span>, finished in
+                    <span class="date">October 2024</span>
+                  </p>
+
+                  <ol class="book-parts">
+                    <li>
+                      <span class="book">The Captive</span>, finished in
+                      <span class="date"> June 2024 </span>
+                    </li>
+                    <li>
+                      <span class="book">The Fugitive</span>, finished in
+                      <span class="date"> October 2024 </span>
+                    </li>
+                  </ol>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-8">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Everything Is Predictable: How Bayes&#39; Remarkable
+                      Theorem Explains the World</span
+                    >
+                    <span class="authors">Tom Chivers</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2024</span>,
+                    finished in <span class="date">September 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-9">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Openings</span>
+                    <span class="authors">Lucy Caldwell</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2024</span>,
+                    finished in <span class="date">September 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-10">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Enter Ghost</span>
+                    <span class="authors">Isabella Hammad</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2024</span>, finished
+                    in <span class="date">September 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-11">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Companion Piece</span>
+                    <span class="authors">Ali Smith</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2024</span>, finished
+                    in <span class="date">August 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-12">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Parade</span>
+                    <span class="authors">Rachel Cusk</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2024</span>, finished in
+                    <span class="date">August 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-13">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >A Supposedly Fun Thing I&#39;ll Never Do Again: Essays
+                      and Arguments</span
+                    >
+                    <span class="authors">David Foster Wallace</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2024</span>, finished in
+                    <span class="date">July 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-14">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Consider the Lobster and Other Essays</span
+                    >
+                    <span class="authors">David Foster Wallace</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2024</span>, finished in
+                    <span class="date">July 2024</span>
+                  </p>
+
+                  <section class="buttons">
+                    <span>Audiobook</span>
+                  </section>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-15">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Faces in the Water</span>
+                    <span class="authors">Janet Frame</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2024</span>, finished in
+                    <span class="date">July 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-16">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Cairn</span>
+                    <span class="authors">Kathleen Jamie</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2024</span>, finished in
+                    <span class="date">June 2024</span>
+                  </p>
+
+                  <section class="buttons">
+                    <a
+                      class="group"
+                      href="/writing/reviews/cairn/"
+                      aria-label="Link to Review of book"
+                    >
+                      Reviewed
+                    </a>
+                  </section>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-17">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >The Life-Changing Magic of Tidying Up: The Japanese Art
+                      of Decluttering and Organizing</span
+                    >
+                    <span class="authors">Marie Kondo</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Cathy Hirano</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2024</span>, finished in
+                    <span class="date">June 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-18">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Doppelganger: A Trip Into the Mirror World</span
+                    >
+                    <span class="authors">Naomi Klein</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2024</span>, finished in
+                    <span class="date">May 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-19">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Alphabetical Diaries</span>
+                    <span class="authors">Sheila Heti</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2024</span>, finished in
+                    <span class="date">May 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-20">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Bird by Bird</span>
+                    <span class="authors">Anne Lamott</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2024</span>, finished in
+                    <span class="date">May 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-21">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Travels with My Aunt</span>
+                    <span class="authors">Graham Greene</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2024</span>, finished in
+                    <span class="date">May 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-22">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Austerlitz</span>
+                    <span class="authors">W. G. Sebald</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Anthea Bell</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2024</span>, finished in
+                    <span class="date">April 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-23">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Bluets</span>
+                    <span class="authors">Maggie Nelson</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2024</span>, finished in
+                    <span class="date">April 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-24">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Madame Bovary</span>
+                    <span class="authors"> Gustave Flaubert</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Lydia Davis</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2024</span>, finished in
+                    <span class="date">April 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-25">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Determined: A Science of Life Without Free Will</span
+                    >
+                    <span class="authors">Robert M. Sapolsky </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2024</span>, finished
+                    in <span class="date">March 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-26">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >A Life&#39;s Work: On Becoming a Mother</span
+                    >
+                    <span class="authors">Rachel Cusk</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2024</span>, finished
+                    in <span class="date">March 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-27">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">On Bullshit</span>
+                    <span class="authors">Harry G. Frankfurt</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2024</span>, finished
+                    in <span class="date">February 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-28">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Men Without Women</span>
+                    <span class="authors">Haruki Murakami</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Phillip Gabriel</span> and
+                      <span class="name">Ted Goossen</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2024</span>, finished
+                    in <span class="date">February 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-29">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">An Omelette and a Glass of Wine</span>
+                    <span class="authors">Elizabeth David</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2023</span>, finished
+                    in <span class="date">February 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-30">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >What I Talk About When I Talk About Running</span
+                    >
+                    <span class="authors">Haruki Murakami</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Philip Gabriel</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2024</span>, finished
+                    in <span class="date">February 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-31">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Letters of Vincent van Gogh </span>
+                    <span class="authors">Vincent van Gogh</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Arnold J. Pomerans</span>
+                    </span>
+                  </p>
+
+                  <p class="editors">
+                    Edited by
+                    <span class="people-list">
+                      <span class="name">Ronald de Leeuw</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2024</span>, finished
+                    in <span class="date">February 2024</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2024-32">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Tomorrow, and Tomorrow, and Tomorrow</span
+                    >
+                    <span class="authors">Gabrielle Zevin</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2023</span>, finished
+                    in <span class="date">January 2024</span>
+                  </p>
+                </article>
+              </li>
+            </ol>
+          </li>
+          <li class="book-divider" id="book-divider-2023">
+            <span>2023</span>
+            <ol class="book-list">
+              <li class="book-entry-item" id="book-entry-past-2023-0">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >The Trouble with Happiness and Other Stories</span
+                    >
+                    <span class="authors">Tove Ditlevsen</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Michael Favala Goldman</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2023</span>, finished
+                    in <span class="date">December 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-1">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">High-Rise</span>
+                    <span class="authors">J.G. Ballard</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2023</span>, finished
+                    in <span class="date">December 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-2">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Solenoid</span>
+                    <span class="authors">Mircea Cărtărescu</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Sean Cotter</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2023</span>, finished
+                    in <span class="date">December 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-3">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Years</span>
+                    <span class="authors">Annie Ernaux</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Alison L. Strayer</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2023</span>, finished
+                    in <span class="date">November 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-4">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Foster</span>
+                    <span class="authors">Claire Keegan</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2023</span>, finished
+                    in <span class="date">October 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-5">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Makioka Sisters</span>
+                    <span class="authors">Jun&#39;ichirō Tanizaki</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Edward G. Seidensticker</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2023</span>,
+                    finished in <span class="date">October 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-6">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Aftermath: On Marriage and Separation</span
+                    >
+                    <span class="authors">Rachek Cusk</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2023</span>, finished
+                    in <span class="date">October 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-7">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Magus</span>
+                    <span class="authors">John Fowles</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2023</span>,
+                    finished in <span class="date">September 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-8">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Six by Six: Short Stories by New Zealand’s Best
+                      Writers</span
+                    >
+                    <span class="authors"
+                      >Katherine Mansfield, Frank Sargeson, Maurice Duggan,
+                      Janet Frame, Patricia Grace and Owen Marshall</span
+                    >
+                  </p>
+
+                  <p class="editors">
+                    Edited by
+                    <span class="people-list">
+                      <span class="name">Bill Manhire</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2023</span>, finished
+                    in <span class="date">September 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-9">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >In Search of Lost Time Volume IV: Sodom and
+                      Gomorrah</span
+                    >
+                    <span class="authors">Marcel Proust</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">C. K. Scott Moncrieff</span>,
+                      <span class="name">Terence Kilmartin</span> and
+                      <span class="name">D. J. Enright</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2023</span>, finished in
+                    <span class="date">August 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-10">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Cursed Bus and other writings</span>
+                    <span class="authors">Jameson Alex West</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2023</span>, finished in
+                    <span class="date">July 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-11">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Time Shelter</span>
+                    <span class="authors">Georgi Gospodinov</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Angela Rodel</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2023</span>, finished in
+                    <span class="date">July 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-12">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Ulysses</span>
+                    <span class="authors">James Joyce</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2023</span>, finished in
+                    <span class="date">July 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-13">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >The New Bloomsday Book: A Guide Through Ulysses</span
+                    >
+                    <span class="authors">Harry Blamires</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2023</span>, finished in
+                    <span class="date">July 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-14">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">My Year of Rest and Relaxation</span>
+                    <span class="authors">Ottessa Moshfegh</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2023</span>, finished in
+                    <span class="date">June 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-15">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Story of Art Without Men</span>
+                    <span class="authors">Katy Hessel</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2023</span>, finished in
+                    <span class="date">June 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-16">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >On Being Blue: A Philosophical Inquiry</span
+                    >
+                    <span class="authors">William H. Gass</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2023</span>, finished in
+                    <span class="date">May 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-17">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Sorrow and Bliss</span>
+                    <span class="authors">Meg Mason</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2023</span>, finished in
+                    <span class="date">April 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-18">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >What We Talk About When We Talk About Love</span
+                    >
+                    <span class="authors">Raymond Carver</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2023</span>, finished in
+                    <span class="date">April 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-19">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Life: A User&#39;s Manual</span>
+                    <span class="authors">Georges Perec</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">David Bellos</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2023</span>, finished in
+                    <span class="date">April 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-20">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">For a Little While</span>
+                    <span class="authors">Rick Bass</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2023</span>, finished
+                    in <span class="date">March 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-21">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Little Virtues</span>
+                    <span class="authors">Natalia Ginzburg</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Dick Davis</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2023</span>, finished
+                    in <span class="date">February 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-22">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">6 Full-Cast BBC Radio Productions</span>
+                    <span class="authors">Anton Chekhov</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2023</span>, finished
+                    in <span class="date">February 2023</span>
+                  </p>
+
+                  <section class="buttons">
+                    <span>Audiobook</span>
+                  </section>
+
+                  <ol class="book-parts">
+                    <li>
+                      <span class="book">Wild Honey</span>
+                    </li>
+                    <li>
+                      <span class="book">The Seagull</span>
+                    </li>
+                    <li>
+                      <span class="book">Ivanov</span>
+                    </li>
+                    <li>
+                      <span class="book">The Cherry Orchard</span>
+                    </li>
+                    <li>
+                      <span class="book">Three Sisters</span>
+                    </li>
+                    <li>
+                      <span class="book">Uncle Vanya</span>
+                    </li>
+                  </ol>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-23">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Stella Maris</span>
+                    <span class="authors">Cormac MacCarthy</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2023</span>, finished
+                    in <span class="date">February 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-24">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Stoner</span>
+                    <span class="authors">John Williams</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2023</span>, finished
+                    in <span class="date">February 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-25">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Coventry</span>
+                    <span class="authors">Rachel Cusk</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2023</span>, finished
+                    in <span class="date">February 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-26">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Passenger</span>
+                    <span class="authors">Cormac MacCarthy</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2023</span>, finished
+                    in <span class="date">January 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-27">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Liberation Day: Stories</span>
+                    <span class="authors">George Saunders</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2022</span>, finished
+                    in <span class="date">January 2023</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2023-28">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">A Swim in a Pond in the Rain</span>
+                    <span class="authors">George Saunders</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2022</span>, finished
+                    in <span class="date">January 2023</span>
+                  </p>
+
+                  <section class="buttons">
+                    <span>Audiobook</span>
+                  </section>
+                </article>
+              </li>
+            </ol>
+          </li>
+          <li class="book-divider" id="book-divider-2022">
+            <span>2022</span>
+            <ol class="book-list">
+              <li class="book-entry-item" id="book-entry-past-2022-0">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Diary of a Nobody</span>
+                    <span class="authors">George Grossmith</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2022</span>, finished
+                    in <span class="date">December 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-1">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Species of Spaces and Other Pieces</span
+                    >
+                    <span class="authors">George Perec</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">John Sturrock</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2022</span>, finished
+                    in <span class="date">December 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-2">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Other Name: Septology I-II</span>
+                    <span class="authors">Jon Fosse</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Damion Searls</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2022</span>, finished
+                    in <span class="date">December 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-3">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">On the Beach</span>
+                    <span class="authors">Nevil Shute</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2022</span>, finished
+                    in <span class="date">December 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-4">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Kokoro</span>
+                    <span class="authors">Natsume Sōseki</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Meredith McKinney</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2022</span>, finished
+                    in <span class="date">November 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-5">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >The Life and Adventures of Nicholas Nickleby</span
+                    >
+                    <span class="authors">Charles Dickens</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2022</span>, finished
+                    in <span class="date">November 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-6">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Collector</span>
+                    <span class="authors">John Fowles</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2022</span>, finished
+                    in <span class="date">October 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-7">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >We Have Always Lived in the Castle</span
+                    >
+                    <span class="authors">Shirley Jackson</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2022</span>, finished
+                    in <span class="date">October 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-8">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Friend</span>
+                    <span class="authors">Sigrid Nunez</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2022</span>, finished
+                    in <span class="date">October 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-9">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Know My Name</span>
+                    <span class="authors">Chanel Miller</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2022</span>,
+                    finished in <span class="date">October 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-10">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Summer</span>
+                    <span class="authors">Ali Smith</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2022</span>,
+                    finished in <span class="date">September 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-11">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Tempest</span>
+                    <span class="authors">William Shakespeare</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2022</span>,
+                    finished in <span class="date">September 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-12">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Second Place</span>
+                    <span class="authors">Rachel Cusk</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2022</span>,
+                    finished in <span class="date">September 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-13">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Annihilation</span>
+                    <span class="authors">Jeff VanderMeer</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2022</span>,
+                    finished in <span class="date">September 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-14">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Fictions</span>
+                    <span class="authors">Jorge Luis Borges</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Andrew Hurley</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2022</span>, finished
+                    in <span class="date">September 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-15">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Kudos</span>
+                    <span class="authors">Rachel Cusk</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2022</span>, finished
+                    in <span class="date">August 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-16">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Camera Lucida</span>
+                    <span class="authors">Roland Barthes</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Richard Howard</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2022</span>, finished
+                    in <span class="date">August 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-17">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Castle of Crossed Destinies</span>
+                    <span class="authors">Italo Calvino</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">William Weaver</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2022</span>, finished
+                    in <span class="date">August 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-18">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Spring</span>
+                    <span class="authors">Ali Smith</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2022</span>, finished
+                    in <span class="date">August 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-19">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">A Room of One&#39;s Own</span>
+                    <span class="authors">Virginia Woolf</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2022</span>, finished in
+                    <span class="date">August 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-20">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Bell Jar</span>
+                    <span class="authors">Sylvia Plath</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2022</span>, finished in
+                    <span class="date">July 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-21">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Who&#39;s Afraid of Virginia Woolf</span
+                    >
+                    <span class="authors">Edward Albee</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2022</span>, finished in
+                    <span class="date">July 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-22">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >In Search of Lost Time Volume III: The Guermantes
+                      Way</span
+                    >
+                    <span class="authors">Marcel Proust</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">C. K. Scott Moncrieff</span>,
+                      <span class="name">Terence Kilmartin</span> and
+                      <span class="name">D. J. Enright</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2022</span>, finished in
+                    <span class="date">July 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-23">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Essayism</span>
+                    <span class="authors">Brian Dillon</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2022</span>, finished in
+                    <span class="date">July 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-24">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Jacob&#39;s Room</span>
+                    <span class="authors">Virginia Woolf</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2022</span>, finished in
+                    <span class="date">July 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-25">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Chess Story</span>
+                    <span class="authors">Stefan Zweig</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Joel Rotenberg</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2022</span>, finished in
+                    <span class="date">June 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-26">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >The World of Yesterday: Memoirs of a European</span
+                    >
+                    <span class="authors">Stefan Zweig</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Anthea Bell</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2022</span>, finished in
+                    <span class="date">June 2022</span>
+                  </p>
+
+                  <section class="buttons">
+                    <a
+                      class="group"
+                      href="/writing/reviews/theworldofyesterday/"
+                      aria-label="Link to Review of book"
+                    >
+                      Reviewed
+                    </a>
+                  </section>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-27">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Tropic of Cancer</span>
+                    <span class="authors">Henry Miller</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2022</span>, finished in
+                    <span class="date">May 2022</span>
+                  </p>
+
+                  <section class="buttons">
+                    <a
+                      class="group"
+                      href="/writing/reviews/tropicofcancer/"
+                      aria-label="Link to Review of book"
+                    >
+                      Reviewed
+                    </a>
+                  </section>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-28">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">In Memory of Memory</span>
+                    <span class="authors">Maria Stepanova</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Sasha Dugdale</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2022</span>, finished in
+                    <span class="date">May 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-29">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Should We Stay Or Should We Go</span>
+                    <span class="authors">Lionel Shriver</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2022</span>, finished in
+                    <span class="date">May 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-30">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Bone People</span>
+                    <span class="authors">Keri Hulme</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2022</span>, finished in
+                    <span class="date">April 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-31">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Mirror and the Light</span>
+                    <span class="authors">Hilary Mantel</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2022</span>, finished
+                    in <span class="date">April 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-32">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">A View from the Bridge</span>
+                    <span class="authors">Arthur Miller</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2022</span>, finished in
+                    <span class="date">March 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-33">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Childhood, Youth, Dependency</span>
+                    <span class="authors">Tove Ditlevsen</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Tiina Nunnally</span> and
+                      <span class="name">Michael Favala Goldman</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2022</span>, finished in
+                    <span class="date">March 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-34">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Hydriotaphia, Urn Burial, or, a Discourse of the
+                      Sepulchral Urns lately found in Norfolk</span
+                    >
+                    <span class="authors">Thomas Browne</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2022</span>, finished
+                    in <span class="date">March 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-35">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Brideshead Revisited</span>
+                    <span class="authors">Evelyn Waugh</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2022</span>, finished
+                    in <span class="date">February 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-36">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Transit</span>
+                    <span class="authors">Rachel Cusk</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2022</span>, finished
+                    in <span class="date">January 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-37">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Six Impossible Things</span>
+                    <span class="authors">John Gribbin</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2022</span>, finished
+                    in <span class="date">January 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-38">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Lonesome Dove</span>
+                    <span class="authors">Larry McMurtry</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2022</span>, finished
+                    in <span class="date">January 2022</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2022-39">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Rings of Saturn</span>
+                    <span class="authors">W. G. Sebald</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Michael Hulse</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2021</span>, finished
+                    in <span class="date">January 2022</span>
+                  </p>
+                </article>
+              </li>
+            </ol>
+          </li>
+          <li class="book-divider" id="book-divider-2021">
+            <span>2021</span>
+            <ol class="book-list">
+              <li class="book-entry-item" id="book-entry-past-2021-0">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Elephant</span>
+                    <span class="authors">Raymond Carver</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2021</span>, finished
+                    in <span class="date">December 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-1">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Solutions and Other Problems</span>
+                    <span class="authors">Allie Brosh</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2021</span>, finished
+                    in <span class="date">December 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-2">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Gratitude</span>
+                    <span class="authors">Oliver Sacks</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2021</span>, finished
+                    in <span class="date">December 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-3">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">This is Pleasure</span>
+                    <span class="authors">Mary Gaitskill</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2021</span>, finished
+                    in <span class="date">December 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-4">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >In Search of Lost Time Volume II: Within a Budding
+                      Grove</span
+                    >
+                    <span class="authors">Marcel Proust</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">C. K. Scott Moncrieff</span>,
+                      <span class="name">Terence Kilmartin</span> and
+                      <span class="name">D. J. Enright</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2021</span>, finished
+                    in <span class="date">December 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-5">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The End of the Affair</span>
+                    <span class="authors">Graham Greene</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2021</span>, finished
+                    in <span class="date">December 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-6">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >One Day in the Life of Ivan Denisovich</span
+                    >
+                    <span class="authors">Aleksandr Solzhenitsyn</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Ralph Parker</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2021</span>, finished
+                    in <span class="date">December 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-7">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Look Back in Anger</span>
+                    <span class="authors">John Osborne</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2021</span>, finished
+                    in <span class="date">November 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-8">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >The Murders in the Rue Morgue and Other Tales</span
+                    >
+                    <span class="authors">Edgar Allan Poe</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2021</span>, finished
+                    in <span class="date">November 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-9">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Leopard</span>
+                    <span class="authors">Giuseppe Tomasi Di Lampedusa</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Archibald Colquhoun</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">October 2021</span>, finished
+                    in <span class="date">October 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-10">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Razor&#39;s Edge</span>
+                    <span class="authors">W. Somerset Maugham</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">September 2021</span>,
+                    finished in <span class="date">September 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-11">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Surfacing</span>
+                    <span class="authors">Kathleen Jamie</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2021</span>, finished
+                    in <span class="date">August 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-12">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Howards End</span>
+                    <span class="authors">E. M. Forster</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2021</span>, finished
+                    in <span class="date">August 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-13">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >In Search of Lost Time Volume I: Swann&#39;s Way</span
+                    >
+                    <span class="authors">Marcel Proust</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">C. K. Scott Moncrieff</span>,
+                      <span class="name">Terence Kilmartin</span> and
+                      <span class="name">D. J. Enright</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">July 2021</span>, finished in
+                    <span class="date">July 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-14">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Diary of a Young Girl</span>
+                    <span class="authors">Anne Frank</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Susan Massotty</span>
+                    </span>
+                  </p>
+
+                  <p class="editors">
+                    Edited by
+                    <span class="people-list">
+                      <span class="name">Otto M. Frank</span> and
+                      <span class="name">Mirjam Pressler</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2021</span>, finished in
+                    <span class="date">June 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-15">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Far from the Madding Crowd</span>
+                    <span class="authors">Thomas Hardy</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2021</span>, finished in
+                    <span class="date">May 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-16">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Arcadia</span>
+                    <span class="authors">Tom Stoppard</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2021</span>, finished in
+                    <span class="date">May 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-17">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Rosencrantz and Guildenstern Are Dead</span
+                    >
+                    <span class="authors">Tom Stoppard</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2021</span>, finished in
+                    <span class="date">May 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-18">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Winter</span>
+                    <span class="authors">Ali Smith</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2021</span>, finished in
+                    <span class="date">May 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-19">
+                <article class="book-entry given-up">
+                  <p>
+                    <span class="title">What Is Existentialism?</span>
+                    <span class="authors">Simone De Beauvoir</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Marybeth Timmermann</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">May 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-20">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Talented Mr. Ripley</span>
+                    <span class="authors">Patricia Highsmith</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2021</span>, finished in
+                    <span class="date">April 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-21">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">What if We Stopped Pretending?</span>
+                    <span class="authors">Jonathan Franzen</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2021</span>, finished in
+                    <span class="date">April 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-22">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Our Mutual Friend</span>
+                    <span class="authors">Charles Dickens</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2021</span>, finished in
+                    <span class="date">April 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-23">
+                <article class="book-entry given-up">
+                  <p>
+                    <span class="title"
+                      >Thus Spoke Zarathustra: A Book for All and None</span
+                    >
+                    <span class="authors">Friedrich Nietzsche</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">R. J. Hollingdale</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-24">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Brief Notes on the Art and Manner of Arranging One&#39;s
+                      Books</span
+                    >
+                    <span class="authors">Georges Perec</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">John Sturrock</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">April 2021</span>, finished in
+                    <span class="date">April 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-25">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Pale Fire</span>
+                    <span class="authors">Vladimir Nabokov</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2021</span>, finished in
+                    <span class="date">April 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-26">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Klara and the Sun</span>
+                    <span class="authors">Kazuo Ishiguro</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2021</span>, finished in
+                    <span class="date">March 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-27">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Inadvertent</span>
+                    <span class="authors">Karl Ove Knausgård</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Ingvild Burkey</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2021</span>, finished in
+                    <span class="date">March 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-28">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Rime of the Ancient Mariner</span>
+                    <span class="authors">Samuel Taylor Coleridge</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2021</span>, finished in
+                    <span class="date">March 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-29">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Flights</span>
+                    <span class="authors">Olga Tokarczuk</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Jennifer Croft</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2021</span>, finished in
+                    <span class="date">March 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-30">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Third Policeman</span>
+                    <span class="authors">Flann O&#39;Brien</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2021</span>, finished
+                    in <span class="date">March 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-31">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The New York Trilogy</span>
+                    <span class="authors">Paul Auster</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2021</span>, finished
+                    in <span class="date">February 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-32">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Tiny Moons: A Year of Eating in Shanghai</span
+                    >
+                    <span class="authors">Nina Mingya Powles</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2021</span>, finished
+                    in <span class="date">February 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-33">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Peregrine</span>
+                    <span class="authors">J. A. Baker</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2021</span>, finished
+                    in <span class="date">February 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-34">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Autumn</span>
+                    <span class="authors">Ali Smith</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2021</span>, finished
+                    in <span class="date">February 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-35">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">In Praise of Shadows</span>
+                    <span class="authors">Jun&#39;ichirō Tanizaki</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Edward Seidensticker</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2021</span>, finished
+                    in <span class="date">February 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-36">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >Fear and Loathing in Las Vegas: A Savage Journey to the
+                      Heart of the American Dream</span
+                    >
+                    <span class="authors">Hunter S. Thompson</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2021</span>, finished
+                    in <span class="date">February 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-37">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Northern Lights</span>
+                    <span class="authors">Philip Pullman</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2021</span>, finished
+                    in <span class="date">January 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-38">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Outlines</span>
+                    <span class="authors">Rachel Cusk</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2021</span>, finished
+                    in <span class="date">January 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-39">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Maybe You Should Talk to Someone</span>
+                    <span class="authors">Lori Gottlieb</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2021</span>, finished
+                    in <span class="date">January 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-40">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Dubliners</span>
+                    <span class="authors">James Joyce</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2020</span>, finished
+                    in <span class="date">January 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-41">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Imagining Decolonisation</span>
+                    <span class="authors"
+                      >Bianca Elkington, Moana Jackson, Rebecca Kiddle, Ocean
+                      Ripeka Mercier, Mike Ross, Jennie Smeaton and Amanda
+                      Thomas</span
+                    >
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2020</span>, finished
+                    in <span class="date">January 2021</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2021-42">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Wolf Hall</span>
+                    <span class="authors">Hilary Mantel</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">December 2020</span>, finished
+                    in <span class="date">January 2021</span>
+                  </p>
+                </article>
+              </li>
+            </ol>
+          </li>
+          <li class="book-divider" id="book-divider-2020">
+            <span>2020</span>
+            <ol class="book-list">
+              <li class="book-entry-item" id="book-entry-past-2020-0">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">East of Eden</span>
+                    <span class="authors">John Steinbeck</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">November 2020</span>, finished
+                    in <span class="date">November 2020</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2020-1">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Findings</span>
+                    <span class="authors">Kathleen Jamie</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">August 2020</span>, finished
+                    in <span class="date">August 2020</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2020-2">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">A Moveable Feast</span>
+                    <span class="authors">Ernest Hemingway</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">June 2020</span>, finished in
+                    <span class="date">June 2020</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2020-3">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The End: My Struggle: Book 6</span>
+                    <span class="authors">Karl Ove Knausgård</span>
+                  </p>
+
+                  <p class="translators">
+                    Translated by
+                    <span class="people-list">
+                      <span class="name">Don Bartlett</span> and
+                      <span class="name">Martin Aitken</span>
+                    </span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">March 2020</span>, finished in
+                    <span class="date">June 2020</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2020-4">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">The Lonely City</span>
+                    <span class="authors">Olivia Laing</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">February 2020</span>, finished
+                    in <span class="date">March 2020</span>
+                  </p>
+                </article>
+              </li>
+              <li class="book-entry-item" id="book-entry-past-2020-5">
+                <article class="book-entry">
+                  <p>
+                    <span class="title"
+                      >The Posthumous Papers of the Pickwick Club</span
+                    >
+                    <span class="authors">Charles Dickens</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2020</span>, finished
+                    in <span class="date">January 2020</span>
+                  </p>
+                </article>
+              </li>
+            </ol>
+          </li>
+          <li class="book-divider" id="book-divider-2019">
+            <span>2019</span>
+            <ol class="book-list">
+              <li class="book-entry-item" id="book-entry-past-2019-0">
+                <article class="book-entry">
+                  <p>
+                    <span class="title">Sightlines</span>
+                    <span class="authors">Kathleen Jamie</span>
+                  </p>
+
+                  <p class="book-dates">
+                    Started in <span class="date">January 2019</span>, finished
+                    in <span class="date">January 2019</span>
+                  </p>
+                </article>
+              </li>
+            </ol>
+          </li>
+        </ol>
+      </section>
+    </main>
+
+    <footer class="no-print">
+      <p class="license-xl">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons Attribution-ShareAlike 4.0 International license</a
+        >.
+      </p>
+      <p class="license-lg">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-md">
+        Licensed under the
+        <a
+          class="underline"
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-sm">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

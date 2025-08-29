@@ -1,0 +1,798 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="AlexBu.sh - Resume"
+      href="https://alexbu.sh/rss.xml"
+    />
+
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://alexbu.sh/resume/" />
+
+    <!-- Primary Meta Tags -->
+    <title>AlexBu.sh - Resume</title>
+    <meta name="title" content="AlexBu.sh - Resume" />
+    <meta name="description" content="My professional resume" />
+    <link rel="stylesheet" href="/assets/asset.Dygo5GVy.css" />
+  </head>
+  <body>
+    <script type="module">
+      if (document.querySelector("#menu")) {
+        let toggleMenu2 = function () {
+          let menu = document.querySelector("#menu");
+          if (!menu) {
+            return;
+          }
+          if (menu.getAttribute("data-menu") === "open") {
+            menu.setAttribute("data-menu", "closed");
+          } else {
+            menu.setAttribute("data-menu", "open");
+          }
+        };
+        let menuToggle = document.querySelector("#menu-toggle");
+        menuToggle?.addEventListener("click", () => {
+          toggleMenu2();
+        });
+        menuToggle?.removeAttribute("hidden");
+        toggleMenu2();
+      }
+      function applyTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      }
+      function toggleTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          localStorage.setItem("theme", "light");
+        } else {
+          localStorage.setItem("theme", "dark");
+        }
+        applyTheme();
+      }
+      let themeToggle = document.querySelector("#theme-toggle");
+      themeToggle?.addEventListener("click", () => {
+        toggleTheme();
+      });
+      let darkModeToggle = document.querySelector("#dark-mode-toggle");
+      darkModeToggle?.removeAttribute("hidden");
+      var matchFunction =
+        window && typeof window.matchMedia === "function"
+          ? window.matchMedia
+          : void 0;
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          matchFunction &&
+          matchFunction("(prefers-color-scheme: dark)").matches)
+      ) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+      applyTheme();
+    </script>
+
+    <header class="no-print">
+      <div id="menu" data-menu="open">
+        <button hidden id="menu-toggle" aria-label="Toggle navigation menu">
+          Menu
+        </button>
+        <span id="menu-title-page"> Resume </span>
+        <ul id="menu-list">
+          <li class>
+            <a href="/" aria-label="Link to Home section"> Home </a>
+          </li>
+          <li class>
+            <a href="/reading" aria-label="Link to Reading section">
+              Reading
+            </a>
+          </li>
+          <li class>
+            <a href="/writing" aria-label="Link to Writing section">
+              Writing
+            </a>
+          </li>
+          <li class="current-page">
+            <a href="/resume" aria-label="Link to Resume section"> Resume </a>
+          </li>
+        </ul>
+      </div>
+      <div hidden id="dark-mode-toggle">
+        <button
+          title="Toggle theme"
+          aria-label="Toggle dark mode"
+          id="theme-toggle"
+        >
+          Toggle Dark Mode
+        </button>
+      </div>
+    </header>
+
+    <main class="resume">
+      <article>
+        <header class="download no-print">
+          <a href="/resume/alexbush.resume.pdf" target="_"
+            >Download Resume as a PDF</a
+          >
+        </header>
+        <header class="personal">
+          <h1 class="name">Alex John Bush</h1>
+          <ul>
+            <li>
+              <span
+                class="email"
+                data-username="olleh"
+                data-domain="hs.ubxela"
+              ></span>
+            </li>
+            <li>
+              <span
+                class="phone"
+                data-first="4 02 46+"
+                data-second="4910 691"
+              ></span>
+            </li>
+            <li>
+              <a
+                class="linkedin"
+                href="https://linkedin.com/in/alex-j-bush"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                linkedin.com/in/alex-j-bush
+              </a>
+            </li>
+            <li>
+              <a
+                class="github"
+                href="https://github.com/alexjbush"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                github.com/alexjbush
+              </a>
+            </li>
+          </ul>
+        </header>
+        <section class="employment-history">
+          <h2>Employment History</h2>
+          <ul>
+            <li>
+              <details open>
+                <summary>
+                  <span class="company">MAS Medical Assurance Society</span>
+                  <time>
+                    From <strong>September 2024</strong> to
+                    <strong> now </strong>
+                  </time>
+                </summary>
+
+                <ul class="positions">
+                  <li>
+                    <summary>
+                      <span class="position"> Solutions Architect </span>
+                    </summary>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="company"
+                    >Professional Services, Qrious Limited (NZ)</span
+                  >
+                  <time>
+                    From <strong>November 2022</strong> to
+                    <strong> September 2024 </strong>
+                  </time>
+                </summary>
+                <p class="comment">
+                  <strong>Led delivery of many modern data platforms</strong>
+                  and <strong>data products</strong> across a range of
+                  technologies and government and private sector clients.
+                  Involved with significant amount of
+                  <strong>pre-sales activities</strong>, from
+                  <strong>solution architecture design</strong>, to
+                  <strong>project scoping, costing and proposal writing</strong
+                  >. <strong>Managed a team of data consultants</strong>, from
+                  junior to senior consultants.
+                  <strong
+                    >Drove automation and repeatable infrastructure-as-code
+                    initiatives</strong
+                  >
+                  to bring innovation to project delivery, ensure platform
+                  implementation consistency and capture reusable assets.
+                </p>
+                <ul class="positions">
+                  <li>
+                    <summary>
+                      <span class="position"> Principal Consultant </span>
+                    </summary>
+                    <p class="comment">
+                      Led the
+                      <strong>architecture design and platform delivery</strong>
+                      of <strong>Microsoft Fabric</strong>-based modern data
+                      platform for multiple large organisations. Led the
+                      architecture design and platform delivery of Azure
+                      Databricks for analyst workloads in a
+                      <strong>large NZ government organisation</strong>.
+                      Delivered multiple modern data platform implementations
+                      across
+                      <strong
+                        >Fivetran, Azure, Snowflake, Azure Databricks, Coalesce
+                        and DBT</strong
+                      >
+                      using <strong>Infrastructure-as-Code</strong>.
+                    </p>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="company"
+                    >Digital Lighthouse, KPMG New Zealand (NZ)</span
+                  >
+                  <time>
+                    From <strong>August 2019</strong> to
+                    <strong> November 2022 </strong>
+                  </time>
+                </summary>
+                <p class="comment">
+                  Led and delivered <strong>Data and Analytics</strong> projects
+                  for <strong>public and private sector clients</strong>.
+                  <strong>Drove internal innovation</strong> to
+                  <strong
+                    >increase delivery capability and technical maturity</strong
+                  >.
+                  <strong
+                    >Fostered a culture of learning and collaboration through
+                    mentoring</strong
+                  >.
+                </p>
+                <ul class="positions">
+                  <li>
+                    <summary>
+                      <span class="position"> Associate Director </span>
+                      <time>
+                        From
+                        <strong> April 2022 </strong>
+                        to
+                        <strong> November 2022 </strong>
+                      </time>
+                    </summary>
+                    <p class="comment">
+                      <strong>Chapter Lead for Engineering</strong>. Led
+                      <strong>business development</strong> and
+                      <strong>engagement delivery</strong>, and identified and
+                      delivered
+                      <strong
+                        >strategic investments in technology and
+                        mentoring</strong
+                      >
+                      to ensure
+                      <strong>delivery capability and capacity</strong>. Managed
+                      relationships with senior client stakeholders to ensure
+                      <strong>effective delivery of complex engagements</strong
+                      >.
+                    </p>
+                  </li>
+                  <li>
+                    <summary>
+                      <span class="position"> Senior Manager </span>
+                      <time>
+                        From
+                        <strong> April 2021 </strong>
+                        to
+                        <strong> March 2022 </strong>
+                      </time>
+                    </summary>
+                    <p class="comment">
+                      <strong>Solution design and delivery</strong> of
+                      end-to-end <strong>analytics platforms</strong> for
+                      public-sector clients. Delivered
+                      <strong>zero-trust platform architectures</strong> of PaaS
+                      and IaaS infrastructure. Developed
+                      <strong
+                        >large-scale data processing pipelines in Apache
+                        Spark</strong
+                      >
+                      to support client data modelling.
+                    </p>
+                  </li>
+                  <li>
+                    <summary>
+                      <span class="position"> Manager </span>
+                      <time>
+                        From
+                        <strong> August 2019 </strong>
+                        to
+                        <strong> March 2021 </strong>
+                      </time>
+                    </summary>
+                    <p class="comment">
+                      <strong>Led client project delivery</strong>, from Azure
+                      Cloud architecture and infrastructure automation, to
+                      back-end application development and data reporting.
+                      Increased the
+                      <strong>technical maturity of the team</strong>, running
+                      <strong
+                        >workshops and designing best practices for
+                        delivery</strong
+                      >.
+                    </p>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="company">Cox Automotive (UK)</span>
+                  <time>
+                    From <strong>November 2016</strong> to
+                    <strong> August 2019 </strong>
+                  </time>
+                </summary>
+                <p class="comment">
+                  <strong>Data Engineering team lead</strong>,
+                  <strong
+                    >supporting Business Intelligence (BI) and Data Science (DS)
+                    teams</strong
+                  >
+                  with data and platforms to
+                  <strong>enable effective business analytics</strong>. Enabled
+                  principle of
+                  <strong>self-service analytics and ETL development</strong>
+                  for BI and DS teams (summarised in a
+                  <strong>talk given at the Spark Summit 2019</strong> (<a
+                    href="https://youtu.be/1WUIua-xjJA"
+                    >youtu.be/1WUIua-xjJA</a
+                  >)).
+                </p>
+                <ul class="positions">
+                  <li>
+                    <summary>
+                      <span class="position"> Lead Data Engineer </span>
+                      <time>
+                        From
+                        <strong> April 2018 </strong>
+                        to
+                        <strong> August 2019 </strong>
+                      </time>
+                    </summary>
+                    <p class="comment">
+                      Delivered and supported
+                      <strong
+                        >data-driven platforms, pipelines, and products</strong
+                      >
+                      across BI and DS teams. Performed
+                      <strong>zero-downtime platform migration</strong> from
+                      <strong>Cloudera (IaaS) to Azure Databricks (PaaS)</strong
+                      >. <strong>Was a core contributor to Waimak</strong>, an
+                      open-source Apache Spark library (<a
+                        href="https://github.com/CoxAutomotiveDataSolutions/waimak"
+                        >github.com/​CoxAutomotiveDataSolutions/​waimak</a
+                      >).
+                    </p>
+                  </li>
+                  <li>
+                    <summary>
+                      <span class="position"> Hadoop DevOps Engineer </span>
+                      <time>
+                        From
+                        <strong> November 2016 </strong>
+                        to
+                        <strong> March 2018 </strong>
+                      </time>
+                    </summary>
+                    <p class="comment">
+                      <strong>Automated deployment of Cloudera platform</strong
+                      >, and
+                      <strong>migrated platform onto a secure platform</strong>
+                      (Kerberos, SSL, RBAC). Responsible for all
+                      <strong
+                        >automation of project and environment builds and
+                        deployment</strong
+                      >.
+                    </p>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="company">Hortonworks (UK)</span>
+                  <time>
+                    From <strong>December 2015</strong> to
+                    <strong> November 2016 </strong>
+                  </time>
+                </summary>
+                <p class="comment">
+                  <strong>Professional services consultant</strong> providing
+                  Hadoop
+                  <strong>implementation, administration and developer</strong>
+                  services to banking-sector clients.
+                </p>
+                <ul class="positions">
+                  <li>
+                    <summary>
+                      <span class="position"> Senior Consultant </span>
+                    </summary>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="company">British Gas (UK)</span>
+                  <time>
+                    From <strong>September 2013</strong> to
+                    <strong> November 2015 </strong>
+                  </time>
+                </summary>
+                <p class="comment">
+                  <strong>Developer</strong> and
+                  <strong>Platform Engineer</strong> delivering
+                  <strong>ETL pipeline development</strong>, and
+                  <strong>infrastructure and platform automation</strong> to
+                  support large on-premises <strong>Hadoop clusters</strong>.
+                </p>
+                <ul class="positions">
+                  <li>
+                    <summary>
+                      <span class="position"> Hadoop Platform Engineer </span>
+                      <time>
+                        From
+                        <strong> January 2015 </strong>
+                        to
+                        <strong> November 2015 </strong>
+                      </time>
+                    </summary>
+                  </li>
+                  <li>
+                    <summary>
+                      <span class="position">
+                        Graduate Hadoop Software Developer
+                      </span>
+                      <time>
+                        From
+                        <strong> May 2014 </strong>
+                        to
+                        <strong> January 2015 </strong>
+                      </time>
+                    </summary>
+                  </li>
+                  <li>
+                    <summary>
+                      <span class="position"> Graduate SAP Developer </span>
+                      <time>
+                        From
+                        <strong> September 2013 </strong>
+                        to
+                        <strong> May 2014 </strong>
+                      </time>
+                    </summary>
+                  </li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </section>
+        <section class="education">
+          <h2>Education</h2>
+          <details open>
+            <summary>
+              <span class="course"
+                >MPhys, Masters in Computational Physics with Honors</span
+              >
+              <span class="university">University of Edinburgh</span>
+            </summary>
+            <ul class="projects">
+              <li>
+                <span class="purpose">Masters Project</span>
+                <span class="title"
+                  >Radiative Transfer on GPUs using NVIDIA CUDA</span
+                >
+              </li>
+              <li>
+                <span class="purpose">Senior Honors Project</span>
+                <span class="title">Lattice QCD on GPUs using NVIDIA CUDA</span>
+              </li>
+            </ul>
+          </details>
+        </section>
+        <section class="certifications">
+          <h2>Certifications</h2>
+          <ul>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title"
+                    >Microsoft Certified: Azure Solutions Architect Expert</span
+                  >
+                  <span class="provider"> Microsoft </span>
+                  <time>
+                    Valid from
+                    <strong> February 2022 </strong>
+
+                    to <strong> February 2025 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title"
+                    >Microsoft Certified: DevOps Engineer Expert</span
+                  >
+                  <span class="provider"> Microsoft </span>
+                  <time>
+                    Valid from
+                    <strong> January 2022 </strong>
+
+                    to <strong> January 2025 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title"
+                    >Microsoft Certified: Azure Data Engineer Associate</span
+                  >
+                  <span class="provider"> Microsoft </span>
+                  <time>
+                    Valid from
+                    <strong> April 2024 </strong>
+
+                    to <strong> April 2026 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title"
+                    >Microsoft Certified: Fabric Analytics Engineer
+                    Associate</span
+                  >
+                  <span class="provider"> Microsoft </span>
+                  <time>
+                    Valid from
+                    <strong> May 2024 </strong>
+
+                    to <strong> May 2025 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title"
+                    >Microsoft Certified: Azure Security Engineer
+                    Associate</span
+                  >
+                  <span class="provider"> Microsoft </span>
+                  <time>
+                    Valid from
+                    <strong> September 2020 </strong>
+
+                    to <strong> September 2023 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title"
+                    >Microsoft Certified: Azure Developer Associate</span
+                  >
+                  <span class="provider"> Microsoft </span>
+                  <time>
+                    Valid from
+                    <strong> February 2024 </strong>
+
+                    to <strong> February 2025 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title"
+                    >Microsoft Certified: Azure Administrator Associate</span
+                  >
+                  <span class="provider"> Microsoft </span>
+                  <time>
+                    Valid from
+                    <strong> January 2022 </strong>
+
+                    to <strong> January 2025 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title">SnowPro Core Certification</span>
+                  <span class="provider"> Snowflake </span>
+                  <time>
+                    Valid from
+                    <strong> November 2023 </strong>
+
+                    to <strong> November 2025 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="title"
+                    >SnowPro Advanced: Architect Certification</span
+                  >
+                  <span class="provider"> Snowflake </span>
+                  <time>
+                    Valid from
+                    <strong> August 2024 </strong>
+
+                    to <strong> August 2026 </strong>
+                  </time>
+                </summary>
+              </details>
+            </li>
+          </ul>
+        </section>
+        <section class="skills">
+          <h2>Skills</h2>
+          <ul>
+            <li>
+              <details open>
+                <summary>
+                  <span class="skill-group">Data Engineering</span>
+                </summary>
+                <ul class="skills-list">
+                  <li class="skill-item"><span>Apache Spark</span></li>
+                  <li class="skill-item"><span>Databricks</span></li>
+                  <li class="skill-item"><span>Snowflake</span></li>
+                  <li class="skill-item"><span>Microsoft Fabric</span></li>
+                  <li class="skill-item"><span>dbt</span></li>
+                  <li class="skill-item"><span>SQL</span></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="skill-group">Software Engineering</span>
+                </summary>
+                <ul class="skills-list">
+                  <li class="skill-item"><span>Scala</span></li>
+                  <li class="skill-item"><span>Python</span></li>
+                  <li class="skill-item"><span>C#</span></li>
+                  <li class="skill-item"><span>TypeScript</span></li>
+                  <li class="skill-item">
+                    <span>Functional Programming</span>
+                  </li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="skill-group">Cloud Engineering</span>
+                </summary>
+                <ul class="skills-list">
+                  <li class="skill-item"><span>Azure</span></li>
+                  <li class="skill-item"><span>AWS</span></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="skill-group">DevOps / Automation</span>
+                </summary>
+                <ul class="skills-list">
+                  <li class="skill-item"><span>Azure DevOps</span></li>
+                  <li class="skill-item"><span>ARM / Bicep</span></li>
+                  <li class="skill-item"><span>GitHub</span></li>
+                  <li class="skill-item"><span>Terraform</span></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="skill-group">Infrastructure / Platform</span>
+                </summary>
+                <ul class="skills-list">
+                  <li class="skill-item"><span>Linux / Unix</span></li>
+                  <li class="skill-item"><span>Bash</span></li>
+                  <li class="skill-item"><span>Networking</span></li>
+                </ul>
+              </details>
+            </li>
+            <li>
+              <details open>
+                <summary>
+                  <span class="skill-group">Soft Skills</span>
+                </summary>
+                <ul class="skills-list">
+                  <li class="skill-item">
+                    <span>Solution Architecture and Platform Design</span>
+                  </li>
+                  <li class="skill-item">
+                    <span>Agile Project Delivery</span>
+                  </li>
+                  <li class="skill-item">
+                    <span>Requirements Gathering</span>
+                  </li>
+                  <li class="skill-item"><span>Technical Writing</span></li>
+                  <li class="skill-item"><span>Workshop Facilitation</span></li>
+                  <li class="skill-item"><span>Data Modelling</span></li>
+                </ul>
+              </details>
+            </li>
+          </ul>
+        </section>
+      </article>
+    </main>
+
+    <footer class="no-print">
+      <p class="license-xl">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons Attribution-ShareAlike 4.0 International license</a
+        >.
+      </p>
+      <p class="license-lg">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-md">
+        Licensed under the
+        <a
+          class="underline"
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-sm">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

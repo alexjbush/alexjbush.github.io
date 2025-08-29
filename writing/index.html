@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="AlexBu.sh - Writing"
+      href="https://alexbu.sh/rss.xml"
+    />
+
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <!-- Canonical URL -->
+    <link rel="canonical" href="https://alexbu.sh/writing/" />
+
+    <!-- Primary Meta Tags -->
+    <title>AlexBu.sh - Writing</title>
+    <meta name="title" content="AlexBu.sh - Writing" />
+    <meta name="description" content="A list of my writing pages" />
+    <link rel="stylesheet" href="/assets/asset.Dygo5GVy.css" />
+  </head>
+  <body>
+    <script type="module">
+      if (document.querySelector("#menu")) {
+        let toggleMenu2 = function () {
+          let menu = document.querySelector("#menu");
+          if (!menu) {
+            return;
+          }
+          if (menu.getAttribute("data-menu") === "open") {
+            menu.setAttribute("data-menu", "closed");
+          } else {
+            menu.setAttribute("data-menu", "open");
+          }
+        };
+        let menuToggle = document.querySelector("#menu-toggle");
+        menuToggle?.addEventListener("click", () => {
+          toggleMenu2();
+        });
+        menuToggle?.removeAttribute("hidden");
+        toggleMenu2();
+      }
+      function applyTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      }
+      function toggleTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          localStorage.setItem("theme", "light");
+        } else {
+          localStorage.setItem("theme", "dark");
+        }
+        applyTheme();
+      }
+      let themeToggle = document.querySelector("#theme-toggle");
+      themeToggle?.addEventListener("click", () => {
+        toggleTheme();
+      });
+      let darkModeToggle = document.querySelector("#dark-mode-toggle");
+      darkModeToggle?.removeAttribute("hidden");
+      var matchFunction =
+        window && typeof window.matchMedia === "function"
+          ? window.matchMedia
+          : void 0;
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          matchFunction &&
+          matchFunction("(prefers-color-scheme: dark)").matches)
+      ) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+      applyTheme();
+    </script>
+
+    <header class="no-print">
+      <div id="menu" data-menu="open">
+        <button hidden id="menu-toggle" aria-label="Toggle navigation menu">
+          Menu
+        </button>
+        <span id="menu-title-page"> Writing </span>
+        <ul id="menu-list">
+          <li class>
+            <a href="/" aria-label="Link to Home section"> Home </a>
+          </li>
+          <li class>
+            <a href="/reading" aria-label="Link to Reading section">
+              Reading
+            </a>
+          </li>
+          <li class="current-page">
+            <a href="/writing" aria-label="Link to Writing section">
+              Writing
+            </a>
+          </li>
+          <li class>
+            <a href="/resume" aria-label="Link to Resume section"> Resume </a>
+          </li>
+        </ul>
+      </div>
+      <div hidden id="dark-mode-toggle">
+        <button
+          title="Toggle theme"
+          aria-label="Toggle dark mode"
+          id="theme-toggle"
+        >
+          Toggle Dark Mode
+        </button>
+      </div>
+    </header>
+
+    <main class="writing">
+      <ol>
+        <li>
+          <h2>Miscellanea</h2>
+          <ol>
+            <li>
+              <a
+                href="/writing/miscellanea/browneianreading"
+                aria-label="Link to Browneian Reading"
+              >
+                <span class="title"> Browneian Reading </span>
+                <span class="subtitle">
+                  All reads lead to Sir Thomas Browne
+                </span>
+
+                <span class="published-date"> Ongoing </span>
+              </a>
+            </li>
+          </ol>
+        </li>
+        <li>
+          <h2>Reviews</h2>
+          <ol>
+            <li>
+              <a href="/writing/reviews/cairn" aria-label="Link to Cairn">
+                <span class="title"> Cairn </span>
+                <span class="subtitle"> Kathleen Jamie </span>
+
+                <span class="published-date">
+                  Published in <span class="date"> July 2024 </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="/writing/reviews/theworldofyesterday"
+                aria-label="Link to The World Of Yesterday"
+              >
+                <span class="title"> The World Of Yesterday </span>
+                <span class="subtitle"> Stefan Zweig </span>
+
+                <span class="published-date">
+                  Published in <span class="date"> February 2023 </span>
+                </span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="/writing/reviews/tropicofcancer"
+                aria-label="Link to Tropic of Cancer"
+              >
+                <span class="title"> Tropic of Cancer </span>
+                <span class="subtitle"> Henry Miller </span>
+
+                <span class="published-date">
+                  Published in <span class="date"> June 2022 </span>
+                </span>
+              </a>
+            </li>
+          </ol>
+        </li>
+      </ol>
+    </main>
+
+    <footer class="no-print">
+      <p class="license-xl">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons Attribution-ShareAlike 4.0 International license</a
+        >.
+      </p>
+      <p class="license-lg">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-md">
+        Licensed under the
+        <a
+          class="underline"
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-sm">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,511 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Global Metadata -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <link
+      rel="alternate"
+      type="application/rss+xml"
+      title="Browneian Reading"
+      href="https://alexbu.sh/rss.xml"
+    />
+
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+
+    <!-- Canonical URL -->
+    <link
+      rel="canonical"
+      href="https://alexbu.sh/writing/miscellanea/browneianreading/"
+    />
+
+    <!-- Primary Meta Tags -->
+    <title>Browneian Reading</title>
+    <meta name="title" content="Browneian Reading" />
+    <meta name="description" content="Browneian Reading" />
+    <link rel="stylesheet" href="/assets/asset.Dygo5GVy.css" />
+  </head>
+  <body>
+    <script type="module">
+      if (document.querySelector("#menu")) {
+        let toggleMenu2 = function () {
+          let menu = document.querySelector("#menu");
+          if (!menu) {
+            return;
+          }
+          if (menu.getAttribute("data-menu") === "open") {
+            menu.setAttribute("data-menu", "closed");
+          } else {
+            menu.setAttribute("data-menu", "open");
+          }
+        };
+        let menuToggle = document.querySelector("#menu-toggle");
+        menuToggle?.addEventListener("click", () => {
+          toggleMenu2();
+        });
+        menuToggle?.removeAttribute("hidden");
+        toggleMenu2();
+      }
+      function applyTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          document.documentElement.setAttribute("data-theme", "dark");
+        } else {
+          document.documentElement.setAttribute("data-theme", "light");
+        }
+      }
+      function toggleTheme() {
+        if (localStorage.getItem("theme") === "dark") {
+          localStorage.setItem("theme", "light");
+        } else {
+          localStorage.setItem("theme", "dark");
+        }
+        applyTheme();
+      }
+      let themeToggle = document.querySelector("#theme-toggle");
+      themeToggle?.addEventListener("click", () => {
+        toggleTheme();
+      });
+      let darkModeToggle = document.querySelector("#dark-mode-toggle");
+      darkModeToggle?.removeAttribute("hidden");
+      var matchFunction =
+        window && typeof window.matchMedia === "function"
+          ? window.matchMedia
+          : void 0;
+      if (
+        localStorage.getItem("theme") === "dark" ||
+        (!("theme" in localStorage) &&
+          matchFunction &&
+          matchFunction("(prefers-color-scheme: dark)").matches)
+      ) {
+        localStorage.setItem("theme", "dark");
+      } else {
+        localStorage.setItem("theme", "light");
+      }
+      applyTheme();
+    </script>
+
+    <header class="no-print">
+      <div id="menu" data-menu="open">
+        <button hidden id="menu-toggle" aria-label="Toggle navigation menu">
+          Menu
+        </button>
+        <span id="menu-title-page"> Writing </span>
+        <ul id="menu-list">
+          <li class>
+            <a href="/" aria-label="Link to Home section"> Home </a>
+          </li>
+          <li class>
+            <a href="/reading" aria-label="Link to Reading section">
+              Reading
+            </a>
+          </li>
+          <li class="current-page">
+            <a href="/writing" aria-label="Link to Writing section">
+              Writing
+            </a>
+          </li>
+          <li class>
+            <a href="/resume" aria-label="Link to Resume section"> Resume </a>
+          </li>
+        </ul>
+      </div>
+      <div hidden id="dark-mode-toggle">
+        <button
+          title="Toggle theme"
+          aria-label="Toggle dark mode"
+          id="theme-toggle"
+        >
+          Toggle Dark Mode
+        </button>
+      </div>
+    </header>
+
+    <main class="article">
+      <article>
+        <header>
+          <h1>Browneian Reading</h1>
+          <h2>All reads lead to Sir Thomas Browne</h2>
+          <span class="published-date">
+            <span class="date">Ongoing</span>
+          </span>
+        </header>
+        <p>
+          I often come across references to Sir Thomas Browne or his writing in
+          books that I read. It seems his influence is wide and varied. This
+          page documents these references as and when I come across them.
+        </p>
+        <blockquote>
+          <p>
+            What song the Syrens sang, or what name Achilles assumed when he hid
+            himself among women, although puzzling questions, are not beyond all
+            conjecture.
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title"
+              >The Murders in the Rue Morgue and Other Tales</span
+            >
+            <span class="authors">Edgar Allan Poe</span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">November 2021</span>, finished in
+            <span class="date">November 2021</span>
+          </p>
+        </article>
+        <blockquote>
+          <p>
+            Fifty years ago to the day, British newspapers reported that the
+            city of Celle had been taken and that German forces were in headlong
+            retreat from the Red Army, which was advancing up the Danube valley.
+            And finally, Maundy Thursday, the 13th of April 1995, was also the
+            day on which Clara’s father, shortly after being taken to hospital
+            in Coburg, departed this life. Now, as I write, and think once more
+            of our history, which is but a long account of calamities, it occurs
+            to me that at one time the only acceptable expression of profound
+            grief, for ladies of the upper classes, was to wear heavy robes of
+            black silk taffeta or black crêpe de china. Thus at Queen Victoria’s
+            funeral, for example, the Duchess of Teck allegedly made her
+            appearance in what contemporary fashion magazines described as a
+            breathtaking gown with billowing veils, all of black Mantua silk of
+            which the Norwich silk weavers Willett &amp; Nephew, just before the
+            firm closed down for good, had created, uniquely for this occasion,
+            and in order to demonstrate their unsurpassed skills in the
+            manufacture of mourning silks, a length of some sixty paces. And Sir
+            Thomas Browne, who was the son of a silk merchant and may well have
+            had an eye for these things, remarks in a passage of the Pseudodoxia
+            Epidemica that I can no longer find that in the Holland of his time
+            it was customary, in a home where there had been a death, to drape
+            black mourning ribbons over all the mirrors and all canvasses
+            depicting landscapes or people or the fruits of the field, so that
+            the soul, as it left the body, would not be distracted on its final
+            journey, either by a reflection of itself or by a last glimpse of
+            the land now being lost forever.
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title">The Rings of Saturn</span>
+            <span class="authors">W. G. Sebald</span>
+          </p>
+
+          <p class="translators">
+            Translated by
+            <span class="people-list">
+              <span class="name">Michael Hulse</span>
+            </span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">December 2021</span>, finished in
+            <span class="date">January 2022</span>
+          </p>
+        </article>
+        <blockquote>
+          <p>
+            ¶ On curiosity. Consider the following inventory of questions and
+            conjectures. What did John the Baptist wear? Were there rainbows
+            before the Flood? Is it unlucky to sneeze between midnight and noon?
+            How to account for the ‘strange and mystical transmigrations of
+            silkworms’? Or the bizarre hirsutism — a condition know as ‘the
+            Morgellons’ — that afflicts Provençal children? Did Jesus laugh? Did
+            he lie down to eat? What are the diseases associated with the
+            climate of Iceland? The likely outcome if you imprison a mole, a
+            toad and a viper together, under glass? (As it happens, the mole
+            prevails.) Now imagine a writer of such rigour, daring and
+            erudition, so prodigiously equiped in style and powers of
+            observation, a scholar so curious he could pass comfortably from
+            such problems to reflections on magnetism, coral, crystallography,
+            ballistics, porcelain and the human eyelid. Such and more was Sir
+            Thomas Browne, the seventeenth-century physician whose voracious
+            essayism trumped all in a period hardly lacking for literary and
+            scientific experiment.
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title">Essayism</span>
+            <span class="authors">Brian Dillon</span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">June 2022</span>, finished in
+            <span class="date">July 2022</span>
+          </p>
+        </article>
+        <blockquote>
+          <p>
+            Contact with Tlön, the habit of Tlön, has disintegrated this world.
+            Spellbound by Tlön’s rigor, humanity has forgotten, and continues to
+            forget, that it is the rigor of chess masters, not of angels.
+            Already Tlön’s (conjectural) “primitive language” has filtered into
+            our schools; already the teaching of Tlön’s harmonious history
+            (filled with moving episodes) has obliterated the history that
+            governed my own childhood; already a fictitious past has supplanted
+            in men’s memories that other past, of which we now know nothing
+            certain—not even that it is false. Numismatics, pharmacology, and
+            archaeology have been reformed. I understand that biology and
+            mathematics are also awaiting their next avatar… A scattered dynasty
+            of recluses has changed the face of the earth—and their work
+            continues. If my projections are correct, a hundred years from now
+            someone will discover the hundred volumes of The Second
+            Encyclopoedia of Tlön.
+          </p>
+          <p>
+            At that, French and English and mere Spanish will disappear from the
+            earth. The world will be Tlön. That makes very little difference to
+            me; through my quiet days in this hotel in Adrogué, I go on revising
+            (though I never intend to publish) an indecisive translation in the
+            style of Quevedo of Sir Thomas Browne’s Urne Buriall. — Tlön, Uqbar,
+            Orbis Tertius
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title">Fictions</span>
+            <span class="authors">Jorge Luis Borges</span>
+          </p>
+
+          <p class="translators">
+            Translated by
+            <span class="people-list">
+              <span class="name">Andrew Hurley</span>
+            </span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">August 2022</span>, finished in
+            <span class="date">September 2022</span>
+          </p>
+        </article>
+        <blockquote>
+          <p>
+            Cinoc, who was then about fifty, pursued a curious profession. As he
+            said himself, he was a “word-killer”: he worked at keeping Larousse
+            dictionaries up to date. But whilst other compilers sought out new
+            words and meaning, his job was to make room for them by eliminating
+            all the words and meanings that had fallen into disuse.
+          </p>
+          <p>
+            When he retired in nineteen sixty-five, after fifty-three years of
+            scrupulous service, he had disposed of hundreds and thousands of
+            tools, techniques, customs, beliefs, sayings, dishes, games,
+            nicknames, weights and measures; he had wiped dozens of islands,
+            hundreds of cities and rivers, and thousands of townships off the
+            map; he had returned to taxonomic anonymity hundreds of varieties of
+            cattle, species of birds, insects, and snakes, rather special sorts
+            of fish, kinds of crustaceans, slightly dissimilar plants and
+            particular breeds of vegetables and fruit; and cohorts of
+            geographers, missionaries, entomologists, Church Fathers, men of
+            letters, generals, Gods &amp; Demons had be swept by his hand into
+            eternal obscurity.
+          </p>
+          <p>
+            Who would know ever again what a vigigraphe was, “a type of
+            telegraph consisting of watchtowers communicating with each other”?
+            And who could henceforth imagine there had existed for perhaps many
+            generations a “block of wood on the end of a stick for flattening
+            watercress in flooded ditches” and that the block had been called a
+            schuèle (shü-ell)?…
+          </p>
+          <p>
+            Cinoc began to dally on the banks of the Seine, rummaging through
+            the open-air bookstalls, leafing through penny dreadfuls,
+            out-of-date essays, obsolete traveller’s guides, old textbooks on
+            physiology, mechanics, or moral instruction, or superseded maps in
+            which Italy still figured as a multicoloured patchwork of little
+            kingdoms. Later on he went to borrow books from the municipal
+            library of the XVIIth arrondissement, in Rue Jacques-Binjen, having
+            them bring down from the attic dusty old folios, ancient users’
+            manuals, volumes from the Library of Miracles, and old dictionaries:
+            Lachâtre, Vicarius, Bescherelle aîné, Larrive, Fleury, the
+            Dictionary of Conversation compiled by a Society of Men and Letters,
+            Graves and d’Esbigné, Bouillet, Onions, Dezobry, and Bachelet.
+            Finally, when he had exhausted the resources of his local library,
+            he grew bolder and enrolled at Sainte-Geneviève, where he started to
+            read the authors whose names he saw as he went in, carved on the
+            stone façade.
+          </p>
+          <p>
+            He read Aristotle, Pliny, Aldrovandy, Sir Thomas Browne, Gesner,
+            Ray, Linnaeus, Brisson, Cuvier, Bonneterre, Owen, Scoresby, Bennett,
+            Aronnax, Omstead, Pierre-Joseph Macquart, Sterne, Eugénie Guérin,
+            Gastripheres, Phutatorius, Somnolentius, Triptolemy, Argalastes,
+            Kysarchius, Egnatius, Sigonius, Bossius, Ticinenses, Baysius,
+            Bodoeus, Salmasius, Lipsius, Lazius, Isaac Casaubon, Joseph
+            Scaliger, and even the De re vestiaria veterum by Rubenius (1655,
+            quarto), which gave him a full &amp; satisfactory account of the
+            Toga, or loose gown, the Chlamys, the Ephod, the Tunica or jacket,
+            the Synthesis, the Paenula, the Lacema with its Cucullus, the
+            Paladamentum, and Praetexta, the Sagum or soldier’s jerkin, and the
+            Trabea: of which, according to the Suetonius, there were three
+            kinds.
+          </p>
+          <p>
+            Cinoc read slowly and copied down rare words; gradually his plan
+            began to take shape, and he decided to compile a great dictionary of
+            forgotten words, not in order to perpetuate the memory of the Akka,
+            a black-skinned pygmy people of Central Africa, or of Jean Gigoux, a
+            historical painter, or of Henri Romagnesi, a composer of romances,
+            1781–1851, nor to prolong the life of the scolecobrot, a tetramerous
+            coleopter of the longicorn family, Cerambycid branch, but so as to
+            rescue simple words which still appealed to him. In ten years he
+            gathered more than eight thousand of them, which contain, obscurely,
+            the trace of a story it has now become almost impossible to hand on…
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title">Life: A User&#39;s Manual</span>
+            <span class="authors">Georges Perec</span>
+          </p>
+
+          <p class="translators">
+            Translated by
+            <span class="people-list">
+              <span class="name">David Bellos</span>
+            </span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">March 2023</span>, finished in
+            <span class="date">April 2023</span>
+          </p>
+        </article>
+        <blockquote>
+          <p>
+            When Leo Feldman, Stanley Elkin’s awesome merchant, enters his
+            department store and is at once assailed by ‘perfumes and
+            facepowders, the mascaras, and polishes bright as sodas,’ will we
+            enter? only if his language enters us the way God’s did Adam at
+            whose bare word, as Sir Thomas Browne reminds us, ‘were the rest of
+            creatures made.’ Then the language fills the mouth as it were meant
+            to. We feel the need to speak it.
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title">On Being Blue: A Philosophical Inquiry</span>
+            <span class="authors">William H. Gass</span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">May 2023</span>, finished in
+            <span class="date">May 2023</span>
+          </p>
+        </article>
+        <blockquote>
+          <p>
+            Finally, changing his idiom to a burlesque of Sir Thomas Browne,
+            Stephen rounds off his homily with reflections on the circular
+            rhythm of life from cradle to grave.
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title"
+              >The New Bloomsday Book: A Guide Through Ulysses</span
+            >
+            <span class="authors">Harry Blamires</span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">April 2023</span>, finished in
+            <span class="date">July 2023</span>
+          </p>
+        </article>
+        <blockquote>
+          <p>
+            As something too small to mourn; the very word was archaic and
+            superstitious, of the age of Browne, or Hervey; yet Donne was right,
+            her death detracted, would for ever detract, from my own life. Each
+            death laid a dreadful charge of complicity on the living; each death
+            was incongenerous, its guilt irreducible, its sadness immortal; a
+            bracelet of bright hair about the bone.
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title">The Magus</span>
+            <span class="authors">John Fowles</span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">September 2023</span>, finished in
+            <span class="date">September 2023</span>
+          </p>
+        </article>
+        <p>And to quote the words of Sir Thomas Browne directly:</p>
+        <blockquote>
+          <p>
+            When the Funerall pyre was out, and the last valediction was over,
+            men took a lasting adieu of their interred Friends, little expecting
+            the curiosity of future ages should comment upon their ashes, and
+            having no old experience of the duration of their Reliques, held no
+            opinion of such after-considerations.
+          </p>
+        </blockquote>
+        <blockquote>
+          <p>
+            But who knows the fate of his bones, or how often he is to be
+            buried? who hath the Oracle of his ashes, or whether they are to be
+            scattered? The Reliques of many lie like the ruines of Pompeys, in
+            all parts of the earth; And when they arrive at your hands, theses
+            may seem to have wandred far, who in a direct and Meridian Travell,
+            have but few miles of known Earth between your self and the Pole.
+          </p>
+        </blockquote>
+        <article class="book-entry">
+          <p>
+            <span class="title"
+              >Hydriotaphia, Urn Burial, or, a Discourse of the Sepulchral Urns
+              lately found in Norfolk</span
+            >
+            <span class="authors">Thomas Browne</span>
+          </p>
+
+          <p class="book-dates">
+            Started in <span class="date">February 2022</span>, finished in
+            <span class="date">March 2022</span>
+          </p>
+        </article>
+      </article>
+    </main>
+
+    <footer class="no-print">
+      <p class="license-xl">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons Attribution-ShareAlike 4.0 International license</a
+        >.
+      </p>
+      <p class="license-lg">
+        Except where otherwise noted, content on this site is licensed under the
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-md">
+        Licensed under the
+        <a
+          class="underline"
+          href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+      <p class="license-sm">
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >Creative Commons CC BY-SA 4.0 license</a
+        >.
+      </p>
+    </footer>
+  </body>
+</html>
