@@ -976,9 +976,10 @@ main.article {
         border-inline-start: 0.3em solid;
         padding-inline-start: 1em;
         border-inline-start: 0.3em solid;
+        border-inline-color: rgb(from var(--font-color) r g b / 30%);
         font-style: italic;
         font-size: var(--text-base);
-        max-width: 50ch;
+        width: 90%;
         line-height: 1.75;
         hyphenate-limit-chars: 11;
         hyphens: auto;
