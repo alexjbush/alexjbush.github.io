@@ -255,6 +255,15 @@ summary {
         --bg-color: #ffffff;
         -webkit-print-color-adjust: exact !important;
         print-color-adjust: exact !important;
+        --text-print-scale: 0.85;
+        --text-xs: calc(var(--text-print-scale) * 0.75rem);
+        --text-sm: calc(var(--text-print-scale) * 0.875rem);
+        --text-base: calc(var(--text-print-scale) * 1rem);
+        --text-lg: calc(var(--text-print-scale) * 1.125rem);
+        /* --text-xl: calc(var(--text-print-scale) * 1.25rem); */
+        /* --text-2xl: calc(var(--text-print-scale) * 1.5rem); */
+        /* --text-3xl: calc(var(--text-print-scale) * 1.875rem); */
+        /* --text-4xl: calc(var(--text-print-scale) * 2.25rem); */
 
     }
 
@@ -568,7 +577,8 @@ main.resume {
 
 main.fourohfour {
     h1 {
-        margin-top: 4rem;;
+        margin-top: 4rem;
+        ;
         font-size: var(--text-base);
         font-weight: var(--font-normal);
         text-align: center;
@@ -1483,7 +1493,10 @@ summary {
 }
 
 section.skills {
+    break-inside: avoid;
     margin-bottom: 4rem;
+        margin-top: 4rem;
+
     font-size: var(--text-sm);
 
     ul {
@@ -1584,6 +1597,16 @@ section.skills {
 
     }
 
+    @media print {
+        main.resume {
+            width: 95%;
+            margin-left: auto;
+            margin-right: auto;
+            padding-left: 0rem;
+            padding-right: 0rem;
+        }
+    }
+
     section#book-filter {
         width: 80%;
     }
@@ -1607,6 +1630,12 @@ section.skills {
 
         p.comment {
             max-width: 80%;
+        }
+
+        @media print {
+            p.comment {
+                max-width: 90%;
+            }
         }
     }
 
