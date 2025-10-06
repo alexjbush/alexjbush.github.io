@@ -571,7 +571,7 @@ main.resume {
     flex-direction: column;
 
     @media screen {
-        max-width: 42rem;
+        max-width: 50rem;
     }
 
     width: 100%;
@@ -1636,7 +1636,7 @@ section.skills {
         }
 
         p.comment {
-            max-width: 80%;
+            max-width: 90%;
         }
 
         @media print {
