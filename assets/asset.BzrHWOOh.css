@@ -569,7 +569,11 @@ main.resume {
     margin-top: 2rem;
     display: flex;
     flex-direction: column;
-    max-width: 42rem;
+
+    @media screen {
+        max-width: 42rem;
+    }
+
     width: 100%;
     padding-left: 2rem;
     padding-right: 2rem;
@@ -1314,39 +1318,42 @@ section.employment-history {
 
     >ul {
 
-        >li>details {
-            >p.comment {
-                font-size: var(--text-sm);
-                margin-top: 0.5rem;
-                hyphenate-limit-chars: 11;
-                hyphens: auto;
-                text-align: justify;
-                text-wrap: pretty;
-                /* max-width: 80%; */
-            }
-
-            .comment strong {
-                font-weight: var(--font-bold);
-            }
-
-            >summary {
-                display: flex;
-                flex-direction: column;
-                row-gap: 0.2rem;
-
-                span.company {
-                    font-weight: var(--font-bold);
-                    font-size: var(--text-lg);
-                    flex-grow: 1;
+        >li {
+            break-inside: avoid; /*Might need to remove this if there are big blocks of white */
+            >details {
+                >p.comment {
+                    font-size: var(--text-sm);
+                    margin-top: 0.5rem;
+                    hyphenate-limit-chars: 11;
+                    hyphens: auto;
+                    text-align: justify;
+                    text-wrap: pretty;
+                    /* max-width: 80%; */
                 }
 
-                time {
-                    font-size: var(--text-xs);
+                .comment strong {
+                    font-weight: var(--font-bold);
+                }
 
-                    /* font-weight: var(--font-bold); */
-                    /* color: var(--secondary-color); */
-                    strong {
-                        font-weight: var(--font-extrabold);
+                >summary {
+                    display: flex;
+                    flex-direction: column;
+                    row-gap: 0.2rem;
+
+                    span.company {
+                        font-weight: var(--font-bold);
+                        font-size: var(--text-lg);
+                        flex-grow: 1;
+                    }
+
+                    time {
+                        font-size: var(--text-xs);
+
+                        /* font-weight: var(--font-bold); */
+                        /* color: var(--secondary-color); */
+                        strong {
+                            font-weight: var(--font-extrabold);
+                        }
                     }
                 }
             }
@@ -1495,7 +1502,7 @@ summary {
 section.skills {
     break-inside: avoid;
     margin-bottom: 4rem;
-        margin-top: 4rem;
+    margin-top: 4rem;
 
     font-size: var(--text-sm);
 
