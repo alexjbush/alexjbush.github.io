@@ -248,6 +248,10 @@ summary {
 }
 
 @media print {
+    @page {
+    size: A4;
+    margin: 10mm;
+}
     :root {
         --primary-color: #000000;
         --secondary-color: #ffffff;
@@ -1320,7 +1324,7 @@ section.employment-history {
     >ul {
 
         >li {
-            break-inside: avoid; /*Might need to remove this if there are big blocks of white */
+            /* break-inside: avoid; Might need to remove this if there are big blocks of white */
             >details {
                 >p.comment {
                     font-size: var(--text-sm);
@@ -1330,13 +1334,19 @@ section.employment-history {
                     text-align: justify;
                     text-wrap: pretty;
                     /* max-width: 80%; */
+                    break-inside: avoid;
                 }
 
                 .comment strong {
                     font-weight: var(--font-bold);
                 }
 
+                >summary:has(+ p.comment) {
+                    break-after: avoid;
+                }
+
                 >summary {
+                    break-inside: avoid;
                     display: flex;
                     flex-direction: column;
                     row-gap: 0.2rem;
@@ -1353,7 +1363,7 @@ section.employment-history {
                         /* font-weight: var(--font-bold); */
                         /* color: var(--secondary-color); */
                         strong {
-                            font-weight: var(--font-extrabold);
+                            font-weight: var(--font-bold);
                         }
                     }
                 }
